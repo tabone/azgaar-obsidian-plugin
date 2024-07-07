@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "azgaar-obsidian",
+	"name": "Azgaar's Fantasy Map Generator Importer",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "An unofficial plugin that parses Azgaar's Fantasy Map Generator .map files and creates directories in an Obsidian vault for each Culture, State, Religion, Burg, and Province.",
+	"author": "Luca Tabone <taboneluca3@gmail.com>",
+	"authorUrl": "https://lucatabone.com",
+	"fundingUrl": "https://lucatabone.com",
 	"isDesktopOnly": false
 }
