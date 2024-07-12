@@ -1,0 +1,3704 @@
+[
+	0,
+	{
+		"i": 1,
+		"state": 1,
+		"name": "Yarkeren",
+		"formName": "County",
+		"fullName": "Yarkeren County",
+		"color": "#69c8c5",
+		"coa": {
+			"t1": "argent",
+			"division": {
+				"division": "perChevron",
+				"t": "sable",
+				"line": "dancetty"
+			},
+			"charges": [
+				{
+					"charge": "fleurDeLis",
+					"t": "vert",
+					"p": "jlh",
+					"divided": "counter",
+					"size": 0.7
+				}
+			],
+			"shield": "round"
+		},
+		"burgs": [359, 1]
+	},
+	{
+		"i": 2,
+		"state": 1,
+		"center": 1740,
+		"burg": 100,
+		"name": "Alkankeli",
+		"formName": "Barony",
+		"fullName": "Alkankeli Barony",
+		"color": "#8ad99e",
+		"coa": {
+			"t1": "or",
+			"ordinaries": [{ "ordinary": "chevron", "t": "purpure" }],
+			"charges": [
+				{
+					"charge": "wyvern",
+					"t": "or",
+					"p": "ach",
+					"t2": "azure",
+					"t3": "or",
+					"size": 0.5
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [568.875, 284.375],
+		"urban": 28.57,
+		"rural": 277.69157218933105,
+		"area": 6558,
+		"burgs": [368, 412, 100, 414]
+	},
+	{
+		"i": 3,
+		"state": 1,
+		"center": 2178,
+		"burg": 142,
+		"name": "Alazbeytay",
+		"formName": "Earldom",
+		"fullName": "Alazbeytay Earldom",
+		"color": "#64e1b2",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "portcullis",
+					"t": "purpure",
+					"p": "e",
+					"t2": "purpure",
+					"size": 1.5
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [492.0234375, 342.2578125],
+		"urban": 34.606,
+		"rural": 409.0096936225891,
+		"area": 9299,
+		"burgs": [396, 142, 326, 376]
+	},
+	{
+		"i": 4,
+		"state": 1,
+		"center": 2984,
+		"burg": 338,
+		"name": "Emer",
+		"formName": "Barony",
+		"fullName": "Emer Barony",
+		"color": "#94c5a5",
+		"coa": {
+			"t1": "vert",
+			"charges": [
+				{ "charge": "mulletFaceted", "t": "or", "p": "kn", "size": 0.7 }
+			],
+			"shield": "round"
+		},
+		"pole": [540.71875, 376.78125],
+		"urban": 34.757,
+		"rural": 290.7753767967224,
+		"area": 4132,
+		"burgs": [33, 180, 387, 338]
+	},
+	{
+		"i": 5,
+		"state": 1,
+		"center": 3414,
+		"burg": 120,
+		"name": "Buyazyurt",
+		"formName": "Barony",
+		"fullName": "Buyazyurt Barony",
+		"color": "#64d0c4",
+		"coa": {
+			"t1": "semy_of_crossCercelee-argent-sable",
+			"charges": [
+				{
+					"charge": "crown",
+					"t": "azure",
+					"p": "behdf",
+					"t2": "azure",
+					"size": 0.4
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [574.640625, 408.734375],
+		"urban": 24.219,
+		"rural": 215.0826301574707,
+		"area": 3648,
+		"burgs": [306, 120]
+	},
+	{
+		"i": 6,
+		"state": 1,
+		"center": 884,
+		"burg": 178,
+		"name": "Kluirdeek",
+		"formName": "County",
+		"fullName": "Kluirdeek County",
+		"color": "#79e3a6",
+		"coa": {
+			"t1": "sable",
+			"charges": [
+				{ "charge": "key", "t": "or", "p": "jln", "size": 0.7 }
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [467.40625, 246.03125],
+		"urban": 35.432,
+		"rural": 292.5292720794678,
+		"area": 4223,
+		"burgs": [104, 419, 178, 364, 99]
+	},
+	{
+		"i": 7,
+		"state": 1,
+		"center": 1296,
+		"burg": 367,
+		"name": "Kobakapeli",
+		"formName": "Barony",
+		"fullName": "Kobakapeli Barony",
+		"color": "#69c9c5",
+		"coa": {
+			"t1": "vert",
+			"charges": [
+				{
+					"charge": "caravel",
+					"t": "argent",
+					"p": "jln",
+					"t2": "argent",
+					"t3": "argent",
+					"size": 0.7
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [550.7734375, 238.2265625],
+		"urban": 15.968,
+		"rural": 198.33740878105164,
+		"area": 2175,
+		"burgs": [85, 54, 367]
+	},
+	{
+		"i": 8,
+		"state": 1,
+		"center": 1521,
+		"burg": 149,
+		"name": "Boztopsyurt",
+		"formName": "Barony",
+		"fullName": "Boztopsyurt Barony",
+		"color": "#64d0c4",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "camel",
+					"t": "gules",
+					"p": "e",
+					"t2": "gules",
+					"size": 1.5
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [502.625, 262.125],
+		"urban": 14.633,
+		"rural": 165.80712914466858,
+		"area": 1601,
+		"burgs": [132, 169, 149]
+	},
+	{
+		"i": 9,
+		"state": 2,
+		"center": 3057,
+		"burg": 2,
+		"name": "Esemar",
+		"formName": "County",
+		"fullName": "Esemar County",
+		"color": "#ff9072",
+		"coa": {
+			"t1": "azure",
+			"charges": [
+				{
+					"charge": "armillarySphere",
+					"t": "argent",
+					"p": "e",
+					"size": 1.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1174.1015625, 405.5859375],
+		"urban": 24.142,
+		"rural": 298.2966470718384,
+		"area": 2131,
+		"burgs": [337, 2, 65, 344, 292]
+	},
+	{
+		"i": 10,
+		"state": 2,
+		"center": 2809,
+		"burg": 36,
+		"name": "Linle",
+		"formName": "County",
+		"fullName": "Linle County",
+		"color": "#fab46b",
+		"coa": {
+			"t1": "purpure",
+			"ordinaries": [
+				{ "ordinary": "bendlet", "t": "or", "line": "wavy" }
+			],
+			"charges": [
+				{
+					"charge": "bookOpen",
+					"t": "gules",
+					"p": "joe",
+					"t2": "or",
+					"t3": "or",
+					"size": 0.3
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1174.1875, 366.5625],
+		"urban": 28.041,
+		"rural": 178.44925785064697,
+		"area": 1228,
+		"burgs": [36, 273, 315]
+	},
+	{
+		"i": 11,
+		"state": 2,
+		"center": 2351,
+		"burg": 264,
+		"name": "Thile",
+		"formName": "County",
+		"fullName": "Thile County",
+		"color": "#ff8b7c",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "crescent",
+					"t": "sable",
+					"p": "abcpqh",
+					"size": 0.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1201.21875, 345.09375],
+		"urban": 36.25,
+		"rural": 185.37522542476654,
+		"area": 1576,
+		"burgs": [264, 170, 271, 75]
+	},
+	{
+		"i": 12,
+		"state": 2,
+		"center": 2574,
+		"burg": 43,
+		"name": "Ahethalyelo",
+		"formName": "Earldom",
+		"fullName": "Ahethalyelo Earldom",
+		"color": "#ff9f62",
+		"coa": {
+			"t1": "ermine-or-azure",
+			"charges": [
+				{ "charge": "cowHorns", "t": "azure", "p": "e", "size": 1.5 }
+			],
+			"shield": "noldor"
+		},
+		"pole": [1154.75, 361.25],
+		"urban": 41.4,
+		"rural": 110.4954137802124,
+		"area": 805,
+		"burgs": [43, 353, 79]
+	},
+	{
+		"i": 13,
+		"state": 2,
+		"center": 2461,
+		"burg": 94,
+		"name": "Nealyfanat",
+		"formName": "Earldom",
+		"fullName": "Nealyfanat Earldom",
+		"color": "#f98c7d",
+		"coa": {
+			"t1": "purpure",
+			"charges": [
+				{
+					"charge": "scaleImbalanced",
+					"t": "or",
+					"p": "jln",
+					"t2": "argent",
+					"size": 0.7
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1166.5625, 346.4375],
+		"urban": 20.56,
+		"rural": 26.11639976501465,
+		"area": 204,
+		"burgs": [94]
+	},
+	{
+		"i": 14,
+		"state": 2,
+		"center": 2697,
+		"burg": 272,
+		"name": "Aethelve",
+		"formName": "County",
+		"fullName": "Aethelve County",
+		"color": "#f0b46f",
+		"coa": {
+			"t1": "argent",
+			"division": {
+				"division": "perPale",
+				"t": "gules",
+				"line": "straight"
+			},
+			"shield": "noldor"
+		},
+		"pole": [1222.546875, 368.171875],
+		"urban": 30.808,
+		"rural": 130.07630968093872,
+		"area": 938,
+		"burgs": [95, 272, 143]
+	},
+	{
+		"i": 15,
+		"state": 3,
+		"center": 2084,
+		"burg": 3,
+		"name": "Boy",
+		"formName": "Barony",
+		"fullName": "Boy Barony",
+		"color": "#9b9cdc",
+		"coa": {
+			"t1": "vert",
+			"division": {
+				"division": "perPale",
+				"t": "argent",
+				"line": "escartely"
+			},
+			"charges": [
+				{ "charge": "anvil", "t": "or", "p": "p", "size": 0.7 },
+				{ "charge": "pique", "t": "purpure", "p": "q", "size": 0.7 }
+			],
+			"shield": "round"
+		},
+		"pole": [679.45703125, 314.57421875],
+		"urban": 44.150999999999996,
+		"rural": 548.4571838378906,
+		"area": 10803,
+		"burgs": [347, 290, 3]
+	},
+	{
+		"i": 16,
+		"state": 3,
+		"center": 2649,
+		"burg": 26,
+		"name": "Anarsyurt",
+		"formName": "County",
+		"fullName": "Anarsyurt County",
+		"color": "#93a1e1",
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{
+					"charge": "swanErased",
+					"t": "azure",
+					"p": "beh",
+					"t2": "azure",
+					"t3": "vert",
+					"size": 0.5
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [722.2265625, 359.3671875],
+		"urban": 52.08800000000001,
+		"rural": 232.96724224090576,
+		"area": 2271,
+		"burgs": [378, 379, 27, 236, 26]
+	},
+	{
+		"i": 17,
+		"state": 3,
+		"center": 2997,
+		"burg": 191,
+		"name": "Edieri",
+		"formName": "Barony",
+		"fullName": "Edieri Barony",
+		"color": "#b19dd7",
+		"coa": {
+			"t1": "semy_of_heart-purpure-argent",
+			"charges": [
+				{
+					"charge": "crossFleury",
+					"t": "argent",
+					"p": "e",
+					"size": 1.5
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [634.546875, 354.390625],
+		"urban": 16.162,
+		"rural": 130.5691933631897,
+		"area": 3104,
+		"burgs": [191]
+	},
+	{
+		"i": 18,
+		"state": 3,
+		"center": 2876,
+		"burg": 195,
+		"name": "Eremir",
+		"formName": "Barony",
+		"fullName": "Eremir Barony",
+		"color": "#a59cdc",
+		"coa": {
+			"t1": "gules",
+			"ordinaries": [{ "ordinary": "orle", "t": "or" }],
+			"charges": [
+				{
+					"charge": "wheatStalk",
+					"t": "or",
+					"p": "jleh",
+					"t2": "or",
+					"size": 0.5
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [677.7734375, 374.2578125],
+		"urban": 26.612000000000002,
+		"rural": 154.60524225234985,
+		"area": 1926,
+		"burgs": [404, 194, 195]
+	},
+	{
+		"i": 19,
+		"state": 3,
+		"center": 2428,
+		"burg": 190,
+		"name": "Tsogt",
+		"formName": "Barony",
+		"fullName": "Tsogt Barony",
+		"color": "#969ddb",
+		"coa": {
+			"t1": "or",
+			"ordinaries": [{ "ordinary": "gyron", "t": "azure" }],
+			"charges": [
+				{ "charge": "pillar", "t": "azure", "p": "bh", "size": 0.5 }
+			],
+			"shield": "easterling"
+		},
+		"pole": [797.03125, 343.46875],
+		"urban": 25.633000000000003,
+		"rural": 296.88200759887695,
+		"area": 3514,
+		"burgs": [314, 93, 291, 190]
+	},
+	{
+		"i": 20,
+		"state": 4,
+		"center": 2766,
+		"burg": 4,
+		"name": "Obadalyurt",
+		"formName": "County",
+		"fullName": "Obadalyurt County",
+		"color": "#d6a0df",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{ "charge": "skull2", "t": "gules", "p": "e", "size": 1.5 }
+			],
+			"shield": "round"
+		},
+		"pole": [772.9765625, 386.0703125],
+		"urban": 10.242,
+		"rural": 225.65081071853638,
+		"area": 2540,
+		"burgs": [4, 260, 182]
+	},
+	{
+		"i": 21,
+		"state": 4,
+		"center": 3009,
+		"burg": 59,
+		"name": "Tsakhetser",
+		"formName": "County",
+		"fullName": "Tsakhetser County",
+		"color": "#ff98bb",
+		"coa": {
+			"t1": "azure",
+			"charges": [
+				{ "charge": "monk", "t": "argent", "p": "jlh", "size": 0.7 }
+			],
+			"shield": "easterling"
+		},
+		"pole": [749.1875, 400.1875],
+		"urban": 20.769,
+		"rural": 28.632022380828857,
+		"area": 290,
+		"burgs": [59, 342]
+	},
+	{
+		"i": 22,
+		"state": 5,
+		"center": 2128,
+		"burg": 5,
+		"name": "Ariremar",
+		"formName": "Landgrave",
+		"fullName": "Ariremar Landgrave",
+		"color": "#c6cf6e",
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{
+					"charge": "mastiffStatant",
+					"t": "or",
+					"p": "e",
+					"t2": "or",
+					"t3": "argent",
+					"size": 1.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1172.734375, 309.171875],
+		"urban": 15.991,
+		"rural": 270.0422863960266,
+		"area": 1734,
+		"burgs": [49, 92, 78, 5, 225]
+	},
+	{
+		"i": 23,
+		"state": 5,
+		"center": 1693,
+		"burg": 21,
+		"name": "Nanassad",
+		"formName": "County",
+		"fullName": "Nanassad County",
+		"color": "#a6d77a",
+		"coa": {
+			"t1": "purpure",
+			"charges": [
+				{
+					"charge": "crossedBones",
+					"t": "argent",
+					"p": "jln",
+					"size": 0.7
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1191.9609375, 273.3984375],
+		"urban": 40.867000000000004,
+		"rural": 291.8315553665161,
+		"area": 2177,
+		"burgs": [152, 105, 411, 21, 358]
+	},
+	{
+		"i": 24,
+		"state": 5,
+		"center": 2014,
+		"burg": 76,
+		"name": "Nasadhil",
+		"formName": "County",
+		"fullName": "Nasadhil County",
+		"color": "#cddb5a",
+		"coa": {
+			"t1": "argent",
+			"ordinaries": [
+				{ "ordinary": "bendSinister", "t": "vert", "line": "straight" }
+			],
+			"charges": [
+				{ "charge": "billet", "t": "argent", "p": "e", "size": 0.7 }
+			],
+			"shield": "noldor"
+		},
+		"pole": [1138.671875, 299.046875],
+		"urban": 18.453,
+		"rural": 169.0012664794922,
+		"area": 1280,
+		"burgs": [76, 210]
+	},
+	{
+		"i": 25,
+		"state": 5,
+		"center": 2021,
+		"burg": 133,
+		"name": "Cyhala",
+		"formName": "County",
+		"fullName": "Cyhala County",
+		"color": "#cdd85d",
+		"coa": {
+			"t1": "purpure",
+			"division": { "division": "perSaltire", "t": "argent" },
+			"charges": [
+				{
+					"charge": "shield",
+					"t": "or",
+					"p": "e",
+					"t2": "or",
+					"divided": "counter",
+					"size": 1.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1214.046875, 304.171875],
+		"urban": 22.061,
+		"rural": 94.58232998847961,
+		"area": 903,
+		"burgs": [280, 133]
+	},
+	{
+		"i": 26,
+		"state": 5,
+		"center": 2242,
+		"burg": 252,
+		"name": "Oshrion",
+		"formName": "Captaincy",
+		"fullName": "Oshrion Captaincy",
+		"color": "#bdce72",
+		"coa": {
+			"t1": "purpure",
+			"ordinaries": [{ "ordinary": "bordure", "t": "or" }],
+			"charges": [
+				{
+					"charge": "ladder",
+					"t": "purpure",
+					"p": "ABCDEFGHIJKL",
+					"size": 0.18
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1194.6875, 321.9375],
+		"urban": 14.343,
+		"rural": 56.44470691680908,
+		"area": 444,
+		"burgs": [252]
+	},
+	{
+		"i": 27,
+		"state": 6,
+		"center": 429,
+		"burg": 6,
+		"name": "Bakinbhur",
+		"formName": "County",
+		"fullName": "Bakinbhur County",
+		"color": "#ffd641",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "lionSejant",
+					"t": "purpure",
+					"p": "jln",
+					"t2": "purpure",
+					"t3": "sable",
+					"size": 0.7
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [925.6484375, 158.9453125],
+		"urban": 65.093,
+		"rural": 213.77681016921997,
+		"area": 1540,
+		"burgs": [402, 6, 22, 173, 334]
+	},
+	{ "i": 28, "removed": true },
+	{
+		"i": 29,
+		"state": 6,
+		"center": 1442,
+		"burg": 25,
+		"name": "Undab",
+		"formName": "County",
+		"fullName": "Undab County",
+		"color": "#ffcf51",
+		"coa": {
+			"t1": "sable",
+			"charges": [
+				{ "charge": "horseshoe", "t": "argent", "p": "e", "size": 1.5 }
+			],
+			"shield": "erebor"
+		},
+		"pole": [874.21484375, 323.66796875],
+		"urban": 39.68,
+		"rural": 390.4081596136093,
+		"area": 7881,
+		"burgs": [25, 219, 415, 269, 377]
+	},
+	{ "i": 30, "removed": true },
+	{
+		"i": 31,
+		"state": 6,
+		"center": 1331,
+		"burg": 224,
+		"name": "Ginarg",
+		"formName": "Earldom",
+		"fullName": "Ginarg Earldom",
+		"color": "#ffd148",
+		"coa": {
+			"t1": "azure",
+			"charges": [
+				{
+					"charge": "griffinRampant",
+					"t": "argent",
+					"p": "e",
+					"t2": "argent",
+					"t3": "argent",
+					"size": 1.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [904.078125, 240.265625],
+		"urban": 17.559,
+		"rural": 147.5384509563446,
+		"area": 1513,
+		"burgs": [218, 224]
+	},
+	{
+		"i": 32,
+		"state": 6,
+		"center": 432,
+		"burg": 165,
+		"name": "Zizirukt",
+		"formName": "Earldom",
+		"fullName": "Zizirukt Earldom",
+		"color": "#ffea34",
+		"coa": {
+			"t1": "purpure",
+			"ordinaries": [
+				{ "ordinary": "fess", "t": "argent", "line": "straight" }
+			],
+			"charges": [
+				{
+					"charge": "crown",
+					"t": "vert",
+					"p": "def",
+					"t2": "vert",
+					"size": 0.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [971.375, 145.875],
+		"urban": 19.194,
+		"rural": 94.81277132034302,
+		"area": 756,
+		"burgs": [165]
+	},
+	{
+		"i": 33,
+		"state": 6,
+		"center": 1328,
+		"burg": 109,
+		"name": "Aralar",
+		"formName": "Earldom",
+		"fullName": "Aralar Earldom",
+		"color": "#ffd93d",
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{ "charge": "shears", "t": "purpure", "p": "jln", "size": 0.7 }
+			],
+			"shield": "erebor"
+		},
+		"pole": [878.828125, 234.984375],
+		"urban": 11.138,
+		"rural": 102.64128875732422,
+		"area": 1189,
+		"burgs": [109]
+	},
+	{
+		"i": 34,
+		"state": 7,
+		"center": 712,
+		"burg": 7,
+		"name": "Shizdus",
+		"formName": "Earldom",
+		"fullName": "Shizdus Earldom",
+		"color": "#ff9595",
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{
+					"charge": "oak",
+					"t": "sable",
+					"p": "e",
+					"t2": "sable",
+					"t3": "sable",
+					"size": 1.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [776.84375, 185.84375],
+		"urban": 6.655,
+		"rural": 123.22715473175049,
+		"area": 1069,
+		"burgs": [7, 336]
+	},
+	{
+		"i": 35,
+		"state": 7,
+		"center": 809,
+		"burg": 222,
+		"name": "Khizdindu",
+		"formName": "Earldom",
+		"fullName": "Khizdindu Earldom",
+		"color": "#e6bb93",
+		"coa": {
+			"t1": "masoned-argent-sable",
+			"ordinaries": [
+				{ "ordinary": "cross", "t": "vert", "line": "straight" }
+			],
+			"charges": [
+				{ "charge": "anchor", "t": "argent", "p": "behdf", "size": 0.3 }
+			],
+			"shield": "erebor"
+		},
+		"pole": [685.25, 210.25],
+		"urban": 33.971,
+		"rural": 133.52009081840515,
+		"area": 1418,
+		"burgs": [148, 222, 245, 38]
+	},
+	{
+		"i": 36,
+		"state": 7,
+		"center": 1428,
+		"burg": 322,
+		"name": "Barar",
+		"formName": "Earldom",
+		"fullName": "Barar Earldom",
+		"color": "#e2b997",
+		"coa": {
+			"t1": "sable",
+			"division": { "division": "chevronny", "t": "or" },
+			"charges": [
+				{
+					"charge": "crossLatin",
+					"t": "argent",
+					"p": "e",
+					"divided": "counter",
+					"size": 1.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [712.4140625, 247.7890625],
+		"urban": 34.57,
+		"rural": 318.6904797554016,
+		"area": 4541,
+		"burgs": [309, 86, 322, 310, 119]
+	},
+	{
+		"i": 37,
+		"state": 7,
+		"center": 1199,
+		"burg": 321,
+		"name": "Zarag",
+		"formName": "Barony",
+		"fullName": "Zarag Barony",
+		"color": "#ffba8c",
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{
+					"charge": "fleurDeLis",
+					"t": "argent",
+					"p": "abcpqh",
+					"size": 0.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [661.7734375, 242.7578125],
+		"urban": 29.778,
+		"rural": 349.99175357818604,
+		"area": 4192,
+		"burgs": [329, 331, 163, 403, 321, 70]
+	},
+	{
+		"i": 38,
+		"state": 7,
+		"center": 1198,
+		"burg": 83,
+		"name": "Kharbabar",
+		"formName": "County",
+		"fullName": "Kharbabar County",
+		"color": "#ffba8c",
+		"coa": {
+			"t1": "purpure",
+			"ordinaries": [{ "ordinary": "bordure", "t": "argent" }],
+			"charges": [
+				{
+					"charge": "crossCarolingian",
+					"t": "purpure",
+					"p": "ABCDEFGHIJKL",
+					"size": 0.18
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [619.4140625, 241.0703125],
+		"urban": 16.795,
+		"rural": 109.52884936332703,
+		"area": 1656,
+		"burgs": [83, 241]
+	},
+	{
+		"i": 39,
+		"state": 7,
+		"center": 793,
+		"burg": 393,
+		"name": "Vaajhaneanil",
+		"formName": "Earldom",
+		"fullName": "Vaajhaneanil Earldom",
+		"color": "#e6a1ab",
+		"coa": {
+			"t1": "or",
+			"division": {
+				"division": "perFess",
+				"t": "pappellony2-or-purpure-small",
+				"line": "straight"
+			},
+			"charges": [
+				{ "charge": "mullet6", "t": "sable", "p": "k", "size": 0.7 },
+				{ "charge": "snake", "t": "gules", "p": "n", "size": 0.7 }
+			],
+			"shield": "hessen"
+		},
+		"pole": [591.921875, 200.203125],
+		"urban": 20.029,
+		"rural": 108.3190438747406,
+		"area": 1419,
+		"burgs": [285, 393, 408, 409, 394]
+	},
+	{
+		"i": 40,
+		"state": 7,
+		"center": 1219,
+		"burg": 246,
+		"name": "Kin",
+		"formName": "Barony",
+		"fullName": "Kin Barony",
+		"color": "#ff9a90",
+		"coa": {
+			"t1": "or",
+			"ordinaries": [
+				{ "ordinary": "fess", "t": "gules", "line": "straight" }
+			],
+			"charges": [
+				{
+					"charge": "lionHeadErased",
+					"t": "argent",
+					"p": "def",
+					"t2": "argent",
+					"size": 0.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [841.390625, 236.671875],
+		"urban": 16.902,
+		"rural": 245.39813351631165,
+		"area": 2171,
+		"burgs": [356, 158, 246, 340]
+	},
+	{
+		"i": 41,
+		"state": 7,
+		"center": 1878,
+		"burg": 384,
+		"name": "Ushundzig",
+		"formName": "Shire",
+		"fullName": "Ushundzig Shire",
+		"color": "#ff939c",
+		"coa": {
+			"t1": "sable",
+			"ordinaries": [
+				{ "ordinary": "cross", "t": "argent", "line": "engrailed" }
+			],
+			"charges": [
+				{ "charge": "fountain", "t": "azure", "p": "beh", "size": 0.3 }
+			],
+			"shield": "ironHills"
+		},
+		"pole": [839.528735632184, 295.6141215106732],
+		"urban": 8.458,
+		"rural": 3.8790533542633057,
+		"area": 101,
+		"burgs": [384]
+	},
+	{
+		"i": 42,
+		"state": 7,
+		"center": 585,
+		"burg": 203,
+		"name": "Bilbil",
+		"formName": "Earldom",
+		"fullName": "Bilbil Earldom",
+		"color": "#ee97a6",
+		"coa": {
+			"t1": "or",
+			"division": {
+				"division": "perCross",
+				"t": "sable",
+				"line": "wavy"
+			},
+			"charges": [
+				{ "charge": "sextifoil", "t": "gules", "p": "e", "size": 1.5 }
+			],
+			"shield": "erebor"
+		},
+		"pole": [617.21875, 190.21875],
+		"urban": 12.598,
+		"rural": 83.28442811965942,
+		"area": 853,
+		"burgs": [203]
+	},
+	{
+		"i": 43,
+		"state": 7,
+		"center": 2095,
+		"burg": 352,
+		"name": "Orgalag",
+		"formName": "County",
+		"fullName": "Orgalag County",
+		"color": "#ffb284",
+		"coa": {
+			"t1": "argent",
+			"ordinaries": [
+				{ "ordinary": "cross", "t": "azure", "line": "engrailed" }
+			],
+			"charges": [
+				{ "charge": "billet", "t": "or", "p": "behdf", "size": 0.3 }
+			],
+			"shield": "easterling"
+		},
+		"pole": [821.3125, 312.3125],
+		"urban": 8.822,
+		"rural": 61.23271441459656,
+		"area": 1572,
+		"burgs": [352]
+	},
+	{
+		"i": 44,
+		"state": 7,
+		"center": 1017,
+		"burg": 240,
+		"name": "Gabilgab",
+		"formName": "Earldom",
+		"fullName": "Gabilgab Earldom",
+		"color": "#ff9694",
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{
+					"charge": "basilisk",
+					"t": "gules",
+					"p": "e",
+					"t2": "vert",
+					"t3": "gules",
+					"size": 1.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [806.4765625, 215.3203125],
+		"urban": 31.547,
+		"rural": 455.98080492019653,
+		"area": 4561,
+		"burgs": [277, 151, 303, 330, 240, 320, 98]
+	},
+	{
+		"i": 45,
+		"state": 7,
+		"center": 1768,
+		"burg": 413,
+		"name": "Naram",
+		"formName": "Earldom",
+		"fullName": "Naram Earldom",
+		"color": "#e99eaa",
+		"coa": {
+			"t1": "sable",
+			"charges": [
+				{ "charge": "mascle", "t": "or", "p": "jlh", "size": 0.7 }
+			],
+			"shield": "ironHills"
+		},
+		"pole": [827.546875, 274.390625],
+		"urban": 7.968,
+		"rural": 100.36890721321106,
+		"area": 2438,
+		"burgs": [413]
+	},
+	{
+		"i": 46,
+		"state": 7,
+		"center": 490,
+		"burg": 239,
+		"name": "Khiz",
+		"formName": "Shire",
+		"fullName": "Khiz Shire",
+		"color": "#ff92a0",
+		"coa": {
+			"t1": "azure",
+			"charges": [
+				{ "charge": "cinquefoil", "t": "argent", "p": "e", "size": 1.5 }
+			],
+			"shield": "erebor"
+		},
+		"pole": [601.5, 162.5],
+		"urban": 8.305,
+		"rural": 35.46837377548218,
+		"area": 293,
+		"burgs": [239]
+	},
+	{
+		"i": 47,
+		"state": 7,
+		"center": 1107,
+		"burg": 332,
+		"name": "Bundushel",
+		"formName": "Earldom",
+		"fullName": "Bundushel Earldom",
+		"color": "#ffaf83",
+		"coa": {
+			"t1": "azure",
+			"division": {
+				"division": "perChevronReversed",
+				"t": "or",
+				"line": "straight"
+			},
+			"ordinaries": [
+				{
+					"ordinary": "saltire",
+					"t": "argent",
+					"line": "straight",
+					"divided": "counter"
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [756.9375, 224.5625],
+		"urban": 14.666,
+		"rural": 319.97709572315216,
+		"area": 3275,
+		"burgs": [115, 188, 332, 32, 232]
+	},
+	{
+		"i": 48,
+		"state": 8,
+		"center": 3700,
+		"burg": 8,
+		"name": "Hilhalia",
+		"formName": "County",
+		"fullName": "Hilhalia County",
+		"color": "#ffa98a",
+		"coa": {
+			"t1": "purpure",
+			"ordinaries": [
+				{
+					"ordinary": "fessCotissed",
+					"t": "argent",
+					"line": "dovetailed"
+				}
+			],
+			"charges": [
+				{ "charge": "roundel", "t": "sable", "p": "def", "size": 0.5 }
+			],
+			"shield": "roman"
+		},
+		"pole": [582.5, 447.5],
+		"urban": 21.333000000000002,
+		"rural": 194.1959090232849,
+		"area": 1200,
+		"burgs": [207, 8]
+	},
+	{
+		"i": 49,
+		"state": 8,
+		"center": 3549,
+		"burg": 129,
+		"name": "Shagoonwell",
+		"formName": "Earldom",
+		"fullName": "Shagoonwell Earldom",
+		"color": "#ff9f9b",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{ "charge": "anchor", "t": "gules", "p": "e", "size": 1.5 }
+			],
+			"shield": "roman"
+		},
+		"pole": [519.0234375, 447.3984375],
+		"urban": 46.489999999999995,
+		"rural": 337.2792110443115,
+		"area": 2460,
+		"burgs": [129, 44, 106, 390]
+	},
+	{
+		"i": 50,
+		"state": 8,
+		"center": 4031,
+		"burg": 283,
+		"name": "Irepeak",
+		"formName": "Earldom",
+		"fullName": "Irepeak Earldom",
+		"color": "#ffae87",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "quatrefoil",
+					"t": "gules",
+					"p": "jlh",
+					"size": 0.7
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [576.0625, 520.8125],
+		"urban": 33.61599999999999,
+		"rural": 173.9557009935379,
+		"area": 2665,
+		"burgs": [248, 283, 399, 46, 350]
+	},
+	{
+		"i": 51,
+		"state": 8,
+		"center": 3407,
+		"burg": 107,
+		"name": "Clearhater",
+		"formName": "Captaincy",
+		"fullName": "Clearhater Captaincy",
+		"color": "#d5bda4",
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{ "charge": "heart", "t": "purpure", "p": "kn", "size": 0.7 }
+			],
+			"shield": "roman"
+		},
+		"pole": [499.90625, 435.28125],
+		"urban": 22.236,
+		"rural": 34.33538341522217,
+		"area": 224,
+		"burgs": [107]
+	},
+	{
+		"i": 52,
+		"state": 8,
+		"center": 3129,
+		"burg": 242,
+		"name": "Altedieri",
+		"formName": "County",
+		"fullName": "Altedieri County",
+		"color": "#f59ea1",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{ "charge": "key", "t": "azure", "p": "e", "size": 1.5 }
+			],
+			"shield": "round"
+		},
+		"pole": [667.875, 420.125],
+		"urban": 48.31999999999999,
+		"rural": 411.4869132041931,
+		"area": 3029,
+		"burgs": [113, 242, 243, 23, 206, 29, 183]
+	},
+	{
+		"i": 53,
+		"state": 8,
+		"center": 3575,
+		"burg": 48,
+		"name": "Amberow",
+		"formName": "County",
+		"fullName": "Amberow County",
+		"color": "#e0c792",
+		"coa": {
+			"t1": "or",
+			"division": {
+				"division": "perChevronReversed",
+				"t": "gules",
+				"line": "straight"
+			},
+			"charges": [
+				{ "charge": "wing", "t": "azure", "p": "e", "size": 1.5 }
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [743.78125, 431.84375],
+		"urban": 17.951,
+		"rural": 68.07546663284302,
+		"area": 490,
+		"burgs": [48]
+	},
+	{
+		"i": 54,
+		"state": 8,
+		"center": 3420,
+		"burg": 139,
+		"name": "Yatevre",
+		"formName": "County",
+		"fullName": "Yatevre County",
+		"color": "#ffa78d",
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{
+					"charge": "hatchet",
+					"t": "or",
+					"p": "e",
+					"t2": "or",
+					"size": 1.5
+				}
+			],
+			"shield": "round"
+		},
+		"pole": [607.984375, 426.578125],
+		"urban": 24.221,
+		"rural": 204.94332075119019,
+		"area": 1531,
+		"burgs": [139, 227]
+	},
+	{
+		"i": 55,
+		"state": 9,
+		"center": 2117,
+		"burg": 9,
+		"name": "Sahrion",
+		"formName": "County",
+		"fullName": "Sahrion County",
+		"color": "#aebdda",
+		"coa": {
+			"t1": "or",
+			"division": {
+				"division": "perFess",
+				"t": "masoned-gules-argent",
+				"line": "straight"
+			},
+			"charges": [
+				{ "charge": "pique", "t": "purpure", "p": "k", "size": 0.7 },
+				{ "charge": "crocodile", "t": "or", "p": "n", "size": 0.7 }
+			],
+			"shield": "noldor"
+		},
+		"pole": [1062.109375, 314.890625],
+		"urban": 7.848000000000001,
+		"rural": 253.16263961791992,
+		"area": 1709,
+		"burgs": [214, 9, 270]
+	},
+	{
+		"i": 56,
+		"state": 9,
+		"center": 1462,
+		"burg": 110,
+		"name": "Velne",
+		"formName": "County",
+		"fullName": "Velne County",
+		"color": "#90e3d2",
+		"coa": {
+			"t1": "vert",
+			"division": { "division": "chevronny", "t": "argent" },
+			"shield": "noldor"
+		},
+		"pole": [1091.328125, 256.890625],
+		"urban": 51.09,
+		"rural": 180.22875690460205,
+		"area": 1131,
+		"burgs": [110, 422, 200]
+	},
+	{
+		"i": 57,
+		"state": 9,
+		"center": 1791,
+		"burg": 136,
+		"name": "Larithnor",
+		"formName": "County",
+		"fullName": "Larithnor County",
+		"color": "#b7bdd7",
+		"coa": {
+			"t1": "or",
+			"division": { "division": "perCross", "t": "vert", "line": "wavy" },
+			"charges": [
+				{
+					"charge": "mascle",
+					"t": "azure",
+					"p": "jl",
+					"divided": "counter",
+					"size": 0.7
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1063.390625, 283.015625],
+		"urban": 25.012,
+		"rural": 179.62065505981445,
+		"area": 1170,
+		"burgs": [116, 136]
+	},
+	{
+		"i": 58,
+		"state": 9,
+		"center": 2450,
+		"burg": 311,
+		"name": "Kmlon",
+		"formName": "County",
+		"fullName": "Kmlon County",
+		"color": "#91e3d1",
+		"coa": {
+			"t1": "lozengy-purpure-or",
+			"division": {
+				"division": "perFess",
+				"t": "argent",
+				"line": "straight"
+			},
+			"ordinaries": [{ "ordinary": "gyron", "t": "azure" }],
+			"shield": "noldor"
+		},
+		"pole": [1040.828125, 347.703125],
+		"urban": 28.287999999999997,
+		"rural": 208.07985091209412,
+		"area": 3010,
+		"burgs": [311, 111]
+	},
+	{
+		"i": 59,
+		"state": 9,
+		"center": 2010,
+		"burg": 205,
+		"name": "Drethamel",
+		"formName": "County",
+		"fullName": "Drethamel County",
+		"color": "#aee5c6",
+		"coa": {
+			"t1": "or",
+			"division": {
+				"division": "perFess",
+				"t": "sable",
+				"line": "straight"
+			},
+			"charges": [
+				{
+					"charge": "pincers",
+					"t": "azure",
+					"p": "kn",
+					"divided": "counter",
+					"size": 0.7
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1107.4375, 304.3125],
+		"urban": 70.98299999999999,
+		"rural": 504.2257311344147,
+		"area": 3816,
+		"burgs": [74, 204, 209, 130, 251, 205, 166, 374, 370]
+	},
+	{
+		"i": 60,
+		"state": 9,
+		"center": 2454,
+		"burg": 134,
+		"name": "Ilmasete",
+		"formName": "County",
+		"fullName": "Ilmasete County",
+		"color": "#bcbed3",
+		"coa": {
+			"t1": "argent",
+			"division": {
+				"division": "perChevronReversed",
+				"t": "vert",
+				"line": "wavy"
+			},
+			"charges": [
+				{
+					"charge": "butterfly",
+					"t": "azure",
+					"p": "mok",
+					"t2": "azure",
+					"t3": "azure",
+					"divided": "counter",
+					"size": 0.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1088.625, 337.375],
+		"urban": 45.756,
+		"rural": 169.91022062301636,
+		"area": 1293,
+		"burgs": [128, 45, 134, 215]
+	},
+	{
+		"i": 61,
+		"state": 9,
+		"center": 2114,
+		"burg": 281,
+		"name": "Filvelelthta",
+		"formName": "County",
+		"fullName": "Filvelelthta County",
+		"color": "#91d2e4",
+		"coa": {
+			"t1": "purpure",
+			"charges": [
+				{
+					"charge": "bell",
+					"t": "argent",
+					"p": "abc",
+					"t2": "argent",
+					"size": 0.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1018.3359375, 312.9453125],
+		"urban": 15.324,
+		"rural": 204.07277369499207,
+		"area": 2821,
+		"burgs": [281]
+	},
+	{
+		"i": 62,
+		"state": 10,
+		"center": 4251,
+		"burg": 10,
+		"name": "Gras",
+		"formName": "Landgrave",
+		"fullName": "Gras Landgrave",
+		"color": "#b8f682",
+		"coa": {
+			"t1": "sable",
+			"charges": [
+				{
+					"charge": "drum",
+					"t": "argent",
+					"p": "e",
+					"t2": "argent",
+					"t3": "or",
+					"size": 1.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [879.0234375, 493.1171875],
+		"urban": 34.808,
+		"rural": 299.03277057409286,
+		"area": 2714,
+		"burgs": [63, 156, 10, 323]
+	},
+	{
+		"i": 63,
+		"state": 10,
+		"center": 3157,
+		"burg": 265,
+		"name": "Dustchstal",
+		"formName": "Landgrave",
+		"fullName": "Dustchstal Landgrave",
+		"color": "#a8f784",
+		"coa": {
+			"t1": "or",
+			"division": {
+				"division": "perPale",
+				"t": "gules",
+				"line": "straight"
+			},
+			"charges": [
+				{
+					"charge": "crossSaltire",
+					"t": "vert",
+					"p": "p",
+					"size": 0.7
+				},
+				{
+					"charge": "dragonRampant",
+					"t": "argent",
+					"p": "q",
+					"size": 0.7
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [860.96875, 387.28125],
+		"urban": 30.813,
+		"rural": 411.64054095745087,
+		"area": 5281,
+		"burgs": [233, 265, 197]
+	},
+	{
+		"i": 64,
+		"state": 10,
+		"center": 4312,
+		"burg": 391,
+		"name": "Pondwichia",
+		"formName": "County",
+		"fullName": "Pondwichia County",
+		"color": "#b2f782",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "rhinoceros",
+					"t": "gules",
+					"p": "e",
+					"t2": "gules",
+					"size": 1.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [998.1640625, 526.8984375],
+		"urban": 36.055,
+		"rural": 215.2554576396942,
+		"area": 2519,
+		"burgs": [249, 68, 391, 198]
+	},
+	{
+		"i": 65,
+		"state": 10,
+		"center": 4454,
+		"burg": 318,
+		"name": "Latervault",
+		"formName": "County",
+		"fullName": "Latervault County",
+		"color": "#b9f682",
+		"coa": {
+			"t1": "or",
+			"division": { "division": "perPale", "t": "vert", "line": "wavy" },
+			"charges": [
+				{
+					"charge": "crossFourchy",
+					"t": "azure",
+					"p": "e",
+					"divided": "counter",
+					"size": 1.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [965.4375, 552.1875],
+		"urban": 31.737,
+		"rural": 142.5136054456234,
+		"area": 3894,
+		"burgs": [324, 318, 312, 392]
+	},
+	{
+		"i": 66,
+		"state": 10,
+		"center": 3740,
+		"burg": 192,
+		"name": "Drymoutht",
+		"formName": "Barony",
+		"fullName": "Drymoutht Barony",
+		"color": "#a4f786",
+		"coa": {
+			"t1": "purpure",
+			"ordinaries": [{ "ordinary": "pilesInPoint", "t": "argent" }],
+			"charges": [
+				{
+					"charge": "talbotSejant",
+					"t": "or",
+					"p": "e",
+					"t2": "or",
+					"t3": "argent",
+					"size": 1.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [991.625, 461.125],
+		"urban": 13.833,
+		"rural": 105.92504215240479,
+		"area": 737,
+		"burgs": [192]
+	},
+	{
+		"i": 67,
+		"state": 10,
+		"center": 4204,
+		"burg": 123,
+		"name": "Dustchilia",
+		"formName": "County",
+		"fullName": "Dustchilia County",
+		"color": "#cbe279",
+		"coa": {
+			"t1": "sable",
+			"ordinaries": [
+				{ "ordinary": "pale", "t": "argent", "line": "straight" }
+			],
+			"charges": [
+				{
+					"charge": "lionHeadCaboshed",
+					"t": "sable",
+					"p": "beh",
+					"t2": "sable",
+					"size": 0.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [986.46875, 492.28125],
+		"urban": 28.948,
+		"rural": 231.89826202392578,
+		"area": 1670,
+		"burgs": [355, 118, 259, 140, 123]
+	},
+	{
+		"i": 68,
+		"state": 10,
+		"center": 3731,
+		"burg": 30,
+		"name": "Eldeguard",
+		"formName": "County",
+		"fullName": "Eldeguard County",
+		"color": "#afce95",
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{
+					"charge": "scrollClosed",
+					"t": "sable",
+					"p": "e",
+					"t2": "sable",
+					"size": 1.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [890.21875, 463.28125],
+		"urban": 39.084,
+		"rural": 184.81192779541016,
+		"area": 1327,
+		"burgs": [301, 30, 235, 60]
+	},
+	{
+		"i": 69,
+		"state": 10,
+		"center": 4052,
+		"burg": 398,
+		"name": "Heartlecia",
+		"formName": "County",
+		"fullName": "Heartlecia County",
+		"color": "#bece95",
+		"coa": {
+			"t1": "semy_of_lozengeFaceted-or-purpure",
+			"charges": [
+				{ "charge": "crossPommy", "t": "azure", "p": "e", "size": 1.5 }
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [919.875, 476.875],
+		"urban": 11.953,
+		"rural": 106.48833656311035,
+		"area": 897,
+		"burgs": [398, 361]
+	},
+	{
+		"i": 70,
+		"state": 10,
+		"center": 4254,
+		"burg": 228,
+		"name": "Amouth",
+		"formName": "Barony",
+		"fullName": "Amouth Barony",
+		"color": "#bdf37e",
+		"coa": {
+			"t1": "argent",
+			"ordinaries": [
+				{ "ordinary": "cross", "t": "sable", "line": "nebuly" }
+			],
+			"charges": [
+				{
+					"charge": "dragonRampant",
+					"t": "or",
+					"p": "behdf",
+					"t2": "or",
+					"t3": "azure",
+					"size": 0.3
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [931.1875, 522.4375],
+		"urban": 22.549,
+		"rural": 251.72879886627197,
+		"area": 3971,
+		"burgs": [77, 228, 126, 351, 400]
+	},
+	{
+		"i": 71,
+		"state": 10,
+		"center": 3739,
+		"burg": 91,
+		"name": "Lamevil",
+		"formName": "Barony",
+		"fullName": "Lamevil Barony",
+		"color": "#a9d29b",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "salmon",
+					"t": "gules",
+					"p": "e",
+					"t2": "gules",
+					"size": 1.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [968.0625, 446.0625],
+		"urban": 11.308,
+		"rural": 142.27676677703857,
+		"area": 1200,
+		"burgs": [91]
+	},
+	{
+		"i": 72,
+		"state": 10,
+		"center": 3461,
+		"burg": 257,
+		"name": "Grireguard",
+		"formName": "Earldom",
+		"fullName": "Grireguard Earldom",
+		"color": "#c9e479",
+		"coa": {
+			"t1": "vert",
+			"division": {
+				"division": "perPale",
+				"t": "argent",
+				"line": "straight"
+			},
+			"shield": "fantasy5"
+		},
+		"pole": [910.34375, 412.84375],
+		"urban": 20.579,
+		"rural": 276.8722355365753,
+		"area": 3198,
+		"burgs": [176, 257, 211]
+	},
+	{
+		"i": 73,
+		"state": 10,
+		"center": 3962,
+		"burg": 56,
+		"name": "Myththgria",
+		"formName": "County",
+		"fullName": "Myththgria County",
+		"color": "#c6cf91",
+		"coa": {
+			"t1": "lozengy-argent-sable-smaller",
+			"division": {
+				"division": "perCross",
+				"t": "potentEnPointe-gules-or-small",
+				"line": "straight"
+			},
+			"ordinaries": [{ "ordinary": "bordure", "t": "azure" }],
+			"shield": "fantasy5"
+		},
+		"pole": [954.421875, 473.609375],
+		"urban": 13.082,
+		"rural": 185.3112154006958,
+		"area": 1355,
+		"burgs": [112, 56, 102]
+	},
+	{
+		"i": 74,
+		"state": 11,
+		"center": 833,
+		"burg": 11,
+		"name": "Gun",
+		"formName": "County",
+		"fullName": "Gun County",
+		"color": "#d2f964",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{ "charge": "frog", "t": "azure", "p": "e", "size": 1.5 }
+			],
+			"shield": "erebor"
+		},
+		"pole": [882.21875, 195.46875],
+		"urban": 17.381,
+		"rural": 110.07934141159058,
+		"area": 941,
+		"burgs": [11, 145, 263]
+	},
+	{
+		"i": 75,
+		"state": 11,
+		"center": 1024,
+		"burg": 410,
+		"name": "Tuzad",
+		"formName": "Earldom",
+		"fullName": "Tuzad Earldom",
+		"color": "#c7f869",
+		"coa": {
+			"t1": "vert",
+			"charges": [
+				{
+					"charge": "hatchet",
+					"t": "argent",
+					"p": "jln",
+					"t2": "or",
+					"size": 0.7
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [881.53125, 216.09375],
+		"urban": 22.827,
+		"rural": 43.30969524383545,
+		"area": 586,
+		"burgs": [410, 213]
+	},
+	{
+		"i": 76,
+		"state": 12,
+		"center": 1345,
+		"burg": 12,
+		"name": "Nulbakil",
+		"formName": "Earldom",
+		"fullName": "Nulbakil Earldom",
+		"color": "#64f5c6",
+		"coa": {
+			"t1": "azure",
+			"charges": [
+				{ "charge": "lanceHead", "t": "argent", "p": "e", "size": 1.5 }
+			],
+			"shield": "erebor"
+		},
+		"pole": [1055.3671875, 252.5078125],
+		"urban": 6.692,
+		"rural": 185.11918199062347,
+		"area": 1503,
+		"burgs": [12, 135]
+	},
+	{
+		"i": 77,
+		"state": 12,
+		"center": 1457,
+		"burg": 208,
+		"name": "Bundundu",
+		"formName": "County",
+		"fullName": "Bundundu County",
+		"color": "#70f5bf",
+		"coa": {
+			"t1": "vert",
+			"division": {
+				"division": "perPile",
+				"t": "or",
+				"line": "embattled"
+			},
+			"charges": [
+				{
+					"charge": "wasp",
+					"t": "argent",
+					"p": "abceh",
+					"t2": "argent",
+					"t3": "argent",
+					"divided": "counter",
+					"size": 0.4
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [1010.21875, 249.78125],
+		"urban": 24.212,
+		"rural": 264.825407743454,
+		"area": 2145,
+		"burgs": [40, 103, 208, 179, 161]
+	},
+	{
+		"i": 78,
+		"state": 12,
+		"center": 1561,
+		"burg": 383,
+		"name": "Zilukkzirgu",
+		"formName": "Earldom",
+		"fullName": "Zilukkzirgu Earldom",
+		"color": "#8ecfc9",
+		"coa": {
+			"t1": "sable",
+			"division": {
+				"division": "perFess",
+				"t": "argent",
+				"line": "straight"
+			},
+			"ordinaries": [{ "ordinary": "pile", "t": "or" }],
+			"charges": [
+				{
+					"charge": "sunInSplendour2",
+					"t": "sable",
+					"p": "b",
+					"size": 0.5
+				}
+			],
+			"shield": "ironHills"
+		},
+		"pole": [939.734375, 296.046875],
+		"urban": 13.289000000000001,
+		"rural": 135.61324405670166,
+		"area": 3511,
+		"burgs": [383, 385]
+	},
+	{
+		"i": 79,
+		"state": 12,
+		"center": 1562,
+		"burg": 64,
+		"name": "Bibunulbun",
+		"formName": "County",
+		"fullName": "Bibunulbun County",
+		"color": "#81efba",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "crossMaltese",
+					"t": "purpure",
+					"p": "e",
+					"size": 1.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [962.15625, 246.28125],
+		"urban": 9.703,
+		"rural": 268.0003435611725,
+		"area": 2561,
+		"burgs": [72, 64, 369]
+	},
+	{
+		"i": 80,
+		"state": 12,
+		"center": 1787,
+		"burg": 42,
+		"name": "Balaram",
+		"formName": "Captaincy",
+		"fullName": "Balaram Captaincy",
+		"color": "#88e9b7",
+		"coa": {
+			"t1": "or",
+			"division": { "division": "perSaltire", "t": "gules" },
+			"charges": [
+				{
+					"charge": "greyhoundRampant",
+					"t": "sable",
+					"p": "bhdf",
+					"t2": "sable",
+					"divided": "counter",
+					"size": 0.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [995.53125, 288.65625],
+		"urban": 7.396,
+		"rural": 92.15632319450378,
+		"area": 1105,
+		"burgs": [28, 42]
+	},
+	{
+		"i": 81,
+		"state": 13,
+		"center": 3182,
+		"burg": 13,
+		"name": "Farithlond",
+		"formName": "Margrave",
+		"fullName": "Farithlond Margrave",
+		"color": "#ff88e3",
+		"coa": {
+			"t1": "vert",
+			"division": { "division": "perSaltire", "t": "or" },
+			"charges": [
+				{
+					"charge": "helmetCorinthian",
+					"t": "argent",
+					"p": "e",
+					"t2": "argent",
+					"t3": "argent",
+					"size": 1.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1076.34375, 415.59375],
+		"urban": 28.775999999999996,
+		"rural": 269.25495290756226,
+		"area": 2376,
+		"burgs": [298, 164, 13, 244]
+	},
+	{
+		"i": 82,
+		"state": 13,
+		"center": 2682,
+		"burg": 253,
+		"name": "Drethala",
+		"formName": "Earldom",
+		"fullName": "Drethala Earldom",
+		"color": "#f989e2",
+		"coa": {
+			"t1": "gules",
+			"charges": [{ "charge": "monk", "t": "or", "p": "e", "size": 1.5 }],
+			"shield": "noldor"
+		},
+		"pole": [1074.890625, 376.796875],
+		"urban": 32.143,
+		"rural": 339.5579948425293,
+		"area": 2703,
+		"burgs": [253, 35]
+	},
+	{
+		"i": 83,
+		"state": 13,
+		"center": 3039,
+		"burg": 69,
+		"name": "Evrahille",
+		"formName": "Margrave",
+		"fullName": "Evrahille Margrave",
+		"color": "#ff88e0",
+		"coa": {
+			"t1": "gules",
+			"ordinaries": [
+				{ "ordinary": "bend", "t": "argent", "line": "wavy" }
+			],
+			"charges": [
+				{
+					"charge": "scythe",
+					"t": "gules",
+					"p": "e",
+					"t2": "or",
+					"size": 0.7
+				}
+			],
+			"shield": "noldor"
+		},
+		"pole": [1030.9375, 391.5625],
+		"urban": 23.059,
+		"rural": 161.6016218662262,
+		"area": 1703,
+		"burgs": [220, 69]
+	},
+	{
+		"i": 84,
+		"state": 13,
+		"center": 4141,
+		"burg": 52,
+		"name": "Deadreachia",
+		"formName": "County",
+		"fullName": "Deadreachia County",
+		"color": "#e7a9e3",
+		"coa": {
+			"t1": "potent-or-vert",
+			"ordinaries": [
+				{ "ordinary": "saltire", "t": "vert", "line": "straight" }
+			],
+			"charges": [
+				{
+					"charge": "laurelWreath",
+					"t": "argent",
+					"p": "e",
+					"t2": "argent",
+					"size": 0.7
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [1052.109375, 482.140625],
+		"urban": 20.490000000000002,
+		"rural": 208.87358283996582,
+		"area": 1449,
+		"burgs": [124, 284, 52]
+	},
+	{
+		"i": 85,
+		"state": 13,
+		"center": 3037,
+		"burg": 288,
+		"name": "Mathethe",
+		"formName": "Landgrave",
+		"fullName": "Mathethe Landgrave",
+		"color": "#ef96ed",
+		"coa": {
+			"t1": "pappellony2-argent-sable-smaller",
+			"ordinaries": [
+				{ "ordinary": "saltire", "t": "gules", "line": "straight" }
+			],
+			"charges": [
+				{
+					"charge": "inescutcheon",
+					"t": "argent",
+					"p": "e",
+					"size": 0.7
+				},
+				{ "charge": "lanceHead", "t": "azure", "p": "e", "size": 0.35 }
+			],
+			"shield": "noldor"
+		},
+		"pole": [970.15625, 387.15625],
+		"urban": 35.868,
+		"rural": 281.10975217819214,
+		"area": 6927,
+		"burgs": [297, 380, 288, 371]
+	},
+	{
+		"i": 86,
+		"state": 13,
+		"center": 3987,
+		"burg": 55,
+		"name": "Mils",
+		"formName": "Earldom",
+		"fullName": "Mils Earldom",
+		"color": "#ff97c8",
+		"coa": {
+			"t1": "barry-argent-purpure-smaller",
+			"division": {
+				"division": "perPile",
+				"t": "gules",
+				"line": "straight"
+			},
+			"shield": "fantasy5"
+		},
+		"pole": [1147.7109375, 464.4609375],
+		"urban": 30.855,
+		"rural": 245.51975655555725,
+		"area": 1929,
+		"burgs": [328, 159, 37, 416, 55]
+	},
+	{
+		"i": 87,
+		"state": 13,
+		"center": 4152,
+		"burg": 71,
+		"name": "Pearl",
+		"formName": "County",
+		"fullName": "Pearl County",
+		"color": "#ff95c9",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{ "charge": "pique", "t": "gules", "p": "def", "size": 0.5 }
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [1122.5, 481.5],
+		"urban": 13.637,
+		"rural": 94.56952977180481,
+		"area": 842,
+		"burgs": [71]
+	},
+	{
+		"i": 88,
+		"state": 13,
+		"center": 3742,
+		"burg": 258,
+		"name": "Oxbreach",
+		"formName": "Earldom",
+		"fullName": "Oxbreach Earldom",
+		"color": "#ffb0ce",
+		"coa": {
+			"t1": "vair-sable-or",
+			"division": { "division": "chevronny", "t": "pally-argent-gules" },
+			"ordinaries": [{ "ordinary": "pallReversed", "t": "or" }],
+			"shield": "fantasy5"
+		},
+		"pole": [1019.5, 457.5],
+		"urban": 32.263,
+		"rural": 270.28552508354187,
+		"area": 2415,
+		"burgs": [339, 389, 258, 212, 155]
+	},
+	{
+		"i": 89,
+		"state": 13,
+		"center": 3605,
+		"burg": 122,
+		"name": "Cragroria",
+		"formName": "Margrave",
+		"fullName": "Cragroria Margrave",
+		"color": "#ff88e2",
+		"coa": {
+			"t1": "vair-vert-argent",
+			"ordinaries": [{ "ordinary": "chevronReversed", "t": "argent" }],
+			"charges": [
+				{ "charge": "fleurDeLis", "t": "or", "p": "b", "size": 0.5 }
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [1020.140625, 423.578125],
+		"urban": 14.601,
+		"rural": 27.78067970275879,
+		"area": 476,
+		"burgs": [122]
+	},
+	{
+		"i": 90,
+		"state": 13,
+		"center": 3870,
+		"burg": 267,
+		"name": "Efallspell",
+		"formName": "County",
+		"fullName": "Efallspell County",
+		"color": "#eaaedb",
+		"coa": {
+			"t1": "purpure",
+			"division": {
+				"division": "perPale",
+				"t": "argent",
+				"line": "straight"
+			},
+			"charges": [
+				{
+					"charge": "mullet10",
+					"t": "or",
+					"p": "e",
+					"divided": "counter",
+					"size": 1.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [1075.2421875, 453.5859375],
+		"urban": 13.494,
+		"rural": 167.7658567428589,
+		"area": 1785,
+		"burgs": [226, 267]
+	},
+	{
+		"i": 91,
+		"state": 13,
+		"center": 3328,
+		"burg": 279,
+		"name": "Eltenahet",
+		"formName": "Landgrave",
+		"fullName": "Eltenahet Landgrave",
+		"color": "#e9addd",
+		"coa": {
+			"t1": "honeycombed-sable-argent",
+			"division": { "division": "chevronny", "t": "argent" },
+			"ordinaries": [{ "ordinary": "chevronReversed", "t": "or" }],
+			"shield": "noldor"
+		},
+		"pole": [1120.5, 423.5],
+		"urban": 39.984,
+		"rural": 415.6220073699951,
+		"area": 3660,
+		"burgs": [196, 247, 80, 316, 279, 406, 381]
+	},
+	{
+		"i": 92,
+		"state": 13,
+		"center": 4151,
+		"burg": 417,
+		"name": "Putumngmide",
+		"formName": "Margrave",
+		"fullName": "Putumngmide Margrave",
+		"color": "#ff8cd6",
+		"coa": {
+			"t1": "or",
+			"ordinaries": [
+				{
+					"ordinary": "fessDoubleCotissed",
+					"t": "azure",
+					"line": "dancetty"
+				}
+			],
+			"charges": [
+				{
+					"charge": "crossHummetty",
+					"t": "argent",
+					"p": "def",
+					"size": 0.4
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"pole": [1101.9375, 488.9375],
+		"urban": 17.097,
+		"rural": 169.46854448318481,
+		"area": 1260,
+		"burgs": [90, 186, 417]
+	},
+	{
+		"i": 93,
+		"state": 14,
+		"center": 199,
+		"burg": 14,
+		"name": "Vrea",
+		"formName": "State",
+		"fullName": "Vrea State",
+		"color": "#f7a09f",
+		"coa": {
+			"t1": "pally-or-azure",
+			"ordinaries": [{ "ordinary": "chevronReversed", "t": "sable" }],
+			"charges": [
+				{
+					"charge": "tower",
+					"t": "gules",
+					"p": "b",
+					"t2": "gules",
+					"size": 0.5
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [414.25, 131.25],
+		"urban": 18.891,
+		"rural": 101.97557783126831,
+		"area": 814,
+		"burgs": [14, 418]
+	},
+	{
+		"i": 94,
+		"state": 14,
+		"center": 774,
+		"burg": 231,
+		"name": "Paas",
+		"formName": "State",
+		"fullName": "Paas State",
+		"color": "#d6b8a9",
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{ "charge": "wheel", "t": "or", "p": "e", "size": 1.5 }
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [417.2109375, 193.2265625],
+		"urban": 20.659,
+		"rural": 129.68584418296814,
+		"area": 1638,
+		"burgs": [256, 231]
+	},
+	{
+		"i": 95,
+		"state": 14,
+		"center": 214,
+		"burg": 51,
+		"name": "Rathim",
+		"formName": "State",
+		"fullName": "Rathim State",
+		"color": "#ffbd83",
+		"coa": {
+			"t1": "azure",
+			"ordinaries": [
+				{ "ordinary": "bendlet", "t": "argent", "line": "nebuly" }
+			],
+			"charges": [
+				{
+					"charge": "sextifoil",
+					"t": "purpure",
+					"p": "joe",
+					"size": 0.3
+				}
+			],
+			"shield": "fantasy2"
+		},
+		"pole": [483.796875, 134.890625],
+		"urban": 22.911,
+		"rural": 94.5887336730957,
+		"area": 738,
+		"burgs": [362, 51, 61]
+	},
+	{
+		"i": 96,
+		"state": 14,
+		"center": 559,
+		"burg": 261,
+		"name": "Gobs",
+		"formName": "Canton",
+		"fullName": "Gobs Canton",
+		"color": "#f5a0a0",
+		"coa": {
+			"t1": "gules",
+			"division": {
+				"division": "perPile",
+				"t": "argent",
+				"line": "wavy"
+			},
+			"charges": [
+				{
+					"charge": "rustre",
+					"t": "or",
+					"p": "e",
+					"divided": "counter",
+					"size": 0.7
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [386.328125, 167.484375],
+		"urban": 27.523,
+		"rural": 196.9291695356369,
+		"area": 2731,
+		"burgs": [168, 294, 302, 261]
+	},
+	{
+		"i": 97,
+		"state": 14,
+		"center": 382,
+		"burg": 47,
+		"name": "Kilanthusxar",
+		"formName": "Canton",
+		"fullName": "Kilanthusxar Canton",
+		"color": "#fcc184",
+		"coa": {
+			"t1": "or",
+			"ordinaries": [
+				{ "ordinary": "chief", "t": "gules", "line": "embattledGrady" }
+			],
+			"charges": [
+				{
+					"charge": "scythe",
+					"t": "or",
+					"p": "abc",
+					"t2": "or",
+					"size": 0.5
+				}
+			],
+			"shield": "fantasy2"
+		},
+		"pole": [493.1875, 154.4375],
+		"urban": 26.834000000000003,
+		"rural": 65.49583292007446,
+		"area": 522,
+		"burgs": [47, 147]
+	},
+	{
+		"i": 98,
+		"state": 14,
+		"center": 288,
+		"burg": 137,
+		"name": "Kluir",
+		"formName": "State",
+		"fullName": "Kluir State",
+		"color": "#eaa19f",
+		"coa": {
+			"t1": "azure",
+			"division": {
+				"division": "perChevron",
+				"t": "or",
+				"line": "straight"
+			},
+			"ordinaries": [{ "ordinary": "bordure", "t": "argent" }],
+			"shield": "moriaOrc"
+		},
+		"pole": [453.0625, 127.8125],
+		"urban": 29.249,
+		"rural": 153.27381706237793,
+		"area": 1390,
+		"burgs": [229, 137, 177, 175]
+	},
+	{
+		"i": 99,
+		"state": 14,
+		"center": 126,
+		"burg": 407,
+		"name": "Blix",
+		"formName": "State",
+		"fullName": "Blix State",
+		"color": "#f7c689",
+		"coa": {
+			"t1": "semy_of_pique-argent-sable",
+			"division": {
+				"division": "perFess",
+				"t": "gules",
+				"line": "straight"
+			},
+			"shield": "moriaOrc"
+		},
+		"pole": [374.734375, 117.265625],
+		"urban": 24.842000000000002,
+		"rural": 263.9740637540817,
+		"area": 2502,
+		"burgs": [81, 293, 41, 407, 160]
+	},
+	{
+		"i": 100,
+		"state": 14,
+		"center": 379,
+		"burg": 138,
+		"name": "Iahzaarm",
+		"formName": "State",
+		"fullName": "Iahzaarm State",
+		"color": "#ffa594",
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{ "charge": "lizard", "t": "argent", "p": "e", "size": 1.5 }
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [462.6741268226518, 165.84918616480164],
+		"urban": 35.288,
+		"rural": 205.6090326309204,
+		"area": 1962,
+		"burgs": [138, 382, 199]
+	},
+	{
+		"i": 101,
+		"state": 15,
+		"center": 1487,
+		"burg": 15,
+		"name": "Suirx",
+		"formName": "Earldom",
+		"fullName": "Suirx Earldom",
+		"color": "#c1c8c4",
+		"coa": {
+			"t1": "sable",
+			"charges": [{ "charge": "hook", "t": "or", "p": "e", "size": 1.5 }],
+			"shield": "moriaOrc"
+		},
+		"pole": [231.375, 273.875],
+		"urban": 13.675,
+		"rural": 352.5969910621643,
+		"area": 4078,
+		"burgs": [125, 421, 15, 73]
+	},
+	{
+		"i": 102,
+		"state": 15,
+		"center": 3644,
+		"burg": 89,
+		"name": "Oagon",
+		"formName": "County",
+		"fullName": "Oagon County",
+		"color": "#b1bdd9",
+		"coa": {
+			"t1": "bendy-or-sable",
+			"ordinaries": [
+				{ "ordinary": "bend", "t": "azure", "line": "straight" }
+			],
+			"charges": [
+				{
+					"charge": "crossAvellane",
+					"t": "argent",
+					"p": "joe",
+					"size": 0.5
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [237.4609375, 435.1171875],
+		"urban": 40.187,
+		"rural": 197.1468071937561,
+		"area": 1586,
+		"burgs": [299, 87, 89]
+	},
+	{
+		"i": 103,
+		"state": 15,
+		"center": 299,
+		"burg": 97,
+		"name": "Balagostermava",
+		"formName": "Earldom",
+		"fullName": "Balagostermava Earldom",
+		"color": "#93e4cf",
+		"coa": {
+			"t1": "or",
+			"division": {
+				"division": "perPale",
+				"t": "sable",
+				"line": "straight"
+			},
+			"ordinaries": [{ "ordinary": "orle", "t": "gules" }],
+			"shield": "fantasy2"
+		},
+		"pole": [517.4765625, 160.4921875],
+		"urban": 32.418,
+		"rural": 123.35517680644989,
+		"area": 1206,
+		"burgs": [97, 401, 346]
+	},
+	{
+		"i": 104,
+		"state": 15,
+		"center": 776,
+		"burg": 304,
+		"name": "Xurx",
+		"formName": "County",
+		"fullName": "Xurx County",
+		"color": "#c1c5c7",
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{
+					"charge": "scalesHanging",
+					"t": "argent",
+					"p": "jln",
+					"size": 0.7
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [412.1015625, 243.8671875],
+		"urban": 23.412,
+		"rural": 279.4966778755188,
+		"area": 5616,
+		"burgs": [304, 153, 365, 366]
+	},
+	{
+		"i": 105,
+		"state": 15,
+		"center": 3366,
+		"burg": 237,
+		"name": "Lastpoint",
+		"formName": "County",
+		"fullName": "Lastpoint County",
+		"color": "#bcd6bc",
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{
+					"charge": "lionHeadCaboshed",
+					"t": "argent",
+					"p": "e",
+					"t2": "argent",
+					"size": 1.5
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [283.09375, 437.09375],
+		"urban": 17.806,
+		"rural": 33.765686988830566,
+		"area": 242,
+		"burgs": [237]
+	},
+	{
+		"i": 106,
+		"state": 15,
+		"center": 3070,
+		"burg": 181,
+		"name": "Prol",
+		"formName": "County",
+		"fullName": "Prol County",
+		"color": "#b0e3c3",
+		"coa": {
+			"t1": "sable",
+			"charges": [
+				{
+					"charge": "plough",
+					"t": "argent",
+					"p": "jln",
+					"t2": "argent",
+					"size": 0.7
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [151.6324599708879, 412.10116448326056],
+		"urban": 14.968,
+		"rural": 26.986945390701294,
+		"area": 228,
+		"burgs": [181]
+	},
+	{
+		"i": 107,
+		"state": 15,
+		"center": 3075,
+		"burg": 157,
+		"name": "Stiol",
+		"formName": "Margrave",
+		"fullName": "Stiol Margrave",
+		"color": "#8ddcdc",
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{ "charge": "cancer", "t": "azure", "p": "jln", "size": 0.7 }
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [177.7890625, 395.6953125],
+		"urban": 15.892,
+		"rural": 148.52421760559082,
+		"area": 1763,
+		"burgs": [157]
+	},
+	{
+		"i": 108,
+		"state": 15,
+		"center": 302,
+		"burg": 57,
+		"name": "Khurem",
+		"formName": "Margrave",
+		"fullName": "Khurem Margrave",
+		"color": "#9fe6c7",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "lionRampant",
+					"t": "vert",
+					"p": "e",
+					"t2": "vert",
+					"t3": "vert",
+					"size": 1.5
+				}
+			],
+			"shield": "fantasy2"
+		},
+		"pole": [541.6875, 137.1875],
+		"urban": 11.741,
+		"rural": 42.94483381509781,
+		"area": 589,
+		"burgs": [57]
+	},
+	{
+		"i": 109,
+		"state": 15,
+		"center": 2363,
+		"burg": 50,
+		"name": "Slutiarm",
+		"formName": "Margrave",
+		"fullName": "Slutiarm Margrave",
+		"color": "#b3e0bf",
+		"coa": {
+			"t1": "vert",
+			"charges": [
+				{
+					"charge": "armillarySphere",
+					"t": "argent",
+					"p": "e",
+					"size": 1.5
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [169.609375, 360.328125],
+		"urban": 24.006,
+		"rural": 276.3857538700104,
+		"area": 2966,
+		"burgs": [50, 296, 405, 327]
+	},
+	{
+		"i": 110,
+		"state": 15,
+		"center": 1499,
+		"burg": 395,
+		"name": "Brid",
+		"formName": "Margrave",
+		"fullName": "Brid Margrave",
+		"color": "#9fe6c6",
+		"coa": {
+			"t1": "vert",
+			"division": {
+				"division": "perChevron",
+				"t": "or",
+				"line": "straight"
+			},
+			"charges": [
+				{
+					"charge": "lionRampant",
+					"t": "argent",
+					"p": "dfk",
+					"t2": "argent",
+					"t3": "argent",
+					"divided": "counter",
+					"size": 0.5
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [328.140625, 283.578125],
+		"urban": 21.18,
+		"rural": 679.4104402065277,
+		"area": 17781,
+		"burgs": [193, 313, 420, 395, 373, 333, 348, 325, 278]
+	},
+	{
+		"i": 111,
+		"state": 15,
+		"center": 1813,
+		"burg": 127,
+		"name": "Paaszai",
+		"formName": "County",
+		"fullName": "Paaszai County",
+		"color": "#c1c4c9",
+		"coa": {
+			"t1": "azure",
+			"ordinaries": [
+				{ "ordinary": "bendlet", "t": "argent", "line": "nebuly" }
+			],
+			"charges": [
+				{
+					"charge": "apple",
+					"t": "gules",
+					"p": "joe",
+					"t2": "gules",
+					"size": 0.3
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [183.234375, 288.078125],
+		"urban": 13.184,
+		"rural": 72.92108249664307,
+		"area": 508,
+		"burgs": [266, 127]
+	},
+	{
+		"i": 112,
+		"state": 15,
+		"center": 1921,
+		"burg": 62,
+		"name": "Jaskurt",
+		"formName": "County",
+		"fullName": "Jaskurt County",
+		"color": "#b7bdd7",
+		"coa": {
+			"t1": "chequy-purpure-argent-smaller",
+			"charges": [
+				{
+					"charge": "horsePassant",
+					"t": "or",
+					"p": "e",
+					"t2": "or",
+					"size": 1.5
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [203.875, 320.375],
+		"urban": 18.558999999999997,
+		"rural": 306.00354194641113,
+		"area": 4599,
+		"burgs": [174, 62, 386, 24, 375]
+	},
+	{
+		"i": 113,
+		"state": 15,
+		"center": 3364,
+		"burg": 146,
+		"name": "Ladowfalls",
+		"formName": "County",
+		"fullName": "Ladowfalls County",
+		"color": "#9dc2df",
+		"coa": {
+			"t1": "or",
+			"ordinaries": [
+				{ "ordinary": "pale", "t": "azure", "line": "indented" }
+			],
+			"charges": [
+				{
+					"charge": "armEmbowedHoldingSabre",
+					"t": "argent",
+					"p": "beh",
+					"t2": "argent",
+					"t3": "azure",
+					"size": 0.5
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [261.875, 393.375],
+		"urban": 19.989,
+		"rural": 388.2958040237427,
+		"area": 5431,
+		"burgs": [167, 53, 146]
+	},
+	{
+		"i": 114,
+		"state": 15,
+		"center": 861,
+		"burg": 223,
+		"name": "Butiarm",
+		"formName": "County",
+		"fullName": "Butiarm County",
+		"color": "#c1cfbe",
+		"coa": {
+			"t1": "vert",
+			"ordinaries": [{ "ordinary": "bordure", "t": "argent" }],
+			"charges": [
+				{
+					"charge": "lozengeFaceted",
+					"t": "gules",
+					"p": "ABCDEFGHIJKL",
+					"size": 0.18
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [253.0703125, 223.7578125],
+		"urban": 22.16,
+		"rural": 287.626047372818,
+		"area": 5134,
+		"burgs": [335, 223, 343]
+	},
+	{
+		"i": 115,
+		"state": 15,
+		"center": 3214,
+		"burg": 274,
+		"name": "Kluir",
+		"formName": "County",
+		"fullName": "Kluir County",
+		"color": "#8ddcdc",
+		"coa": {
+			"t1": "argent",
+			"ordinaries": [
+				{ "ordinary": "bar", "t": "sable", "line": "invecked" }
+			],
+			"charges": [
+				{
+					"charge": "swan",
+					"t": "argent",
+					"p": "def",
+					"t2": "argent",
+					"t3": "sable",
+					"size": 0.3
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [200.671875, 424.265625],
+		"urban": 26.349999999999998,
+		"rural": 250.94146704673767,
+		"area": 2177,
+		"burgs": [114, 171, 274, 388, 88, 101]
+	},
+	{
+		"i": 116,
+		"state": 16,
+		"center": 2972,
+		"burg": 16,
+		"name": "Heartia",
+		"formName": "County",
+		"fullName": "Heartia County",
+		"color": "#efb0d3",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "unicornRampant",
+					"t": "purpure",
+					"p": "e",
+					"t2": "purpure",
+					"t3": "gules",
+					"size": 1.5
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [390.65625, 392.71875],
+		"urban": 44.174,
+		"rural": 230.82928037643433,
+		"area": 3641,
+		"burgs": [341, 16]
+	},
+	{
+		"i": 117,
+		"state": 16,
+		"center": 3679,
+		"burg": 150,
+		"name": "Moshield",
+		"formName": "County",
+		"fullName": "Moshield County",
+		"color": "#e2addf",
+		"coa": {
+			"t1": "purpure",
+			"ordinaries": [{ "ordinary": "pallReversed", "t": "argent" }],
+			"charges": [
+				{
+					"charge": "dragonfly",
+					"t": "purpure",
+					"p": "e",
+					"t2": "purpure",
+					"size": 0.7
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [428.453125, 449.765625],
+		"urban": 21.899,
+		"rural": 56.09904956817627,
+		"area": 403,
+		"burgs": [150]
+	},
+	{
+		"i": 118,
+		"state": 16,
+		"center": 2849,
+		"burg": 287,
+		"name": "Faypostval",
+		"formName": "County",
+		"fullName": "Faypostval County",
+		"color": "#ff8cd8",
+		"coa": {
+			"t1": "sable",
+			"division": { "division": "perFess", "t": "or", "line": "rayonne" },
+			"charges": [
+				{
+					"charge": "stirrup",
+					"t": "argent",
+					"p": "giz",
+					"t2": "argent",
+					"divided": "counter",
+					"size": 0.4
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [417.9765625, 351.9765625],
+		"urban": 19.980999999999998,
+		"rural": 216.0683925151825,
+		"area": 4858,
+		"burgs": [397, 349, 287]
+	},
+	{
+		"i": 119,
+		"state": 16,
+		"center": 3231,
+		"burg": 234,
+		"name": "Silentlia",
+		"formName": "County",
+		"fullName": "Silentlia County",
+		"color": "#e39cf0",
+		"coa": {
+			"t1": "argent",
+			"division": {
+				"division": "perFess",
+				"t": "sable",
+				"line": "engrailed"
+			},
+			"charges": [
+				{
+					"charge": "portcullis",
+					"t": "azure",
+					"p": "k",
+					"t2": "azure",
+					"size": 0.7
+				},
+				{ "charge": "castle", "t": "or", "p": "n", "size": 0.7 }
+			],
+			"shield": "roman"
+		},
+		"pole": [343.0078125, 407.2109375],
+		"urban": 28.770000000000003,
+		"rural": 276.30253887176514,
+		"area": 3458,
+		"burgs": [354, 221, 282, 234, 317]
+	},
+	{
+		"i": 120,
+		"state": 16,
+		"center": 3522,
+		"burg": 31,
+		"name": "Greere",
+		"formName": "County",
+		"fullName": "Greere County",
+		"color": "#eeb0d5",
+		"coa": {
+			"t1": "ermine-argent-sable",
+			"charges": [
+				{ "charge": "gear", "t": "purpure", "p": "e", "size": 1.5 }
+			],
+			"shield": "roman"
+		},
+		"pole": [335.625, 452.125],
+		"urban": 19.004,
+		"rural": 200.46896600723267,
+		"area": 1594,
+		"burgs": [31, 202, 117, 254]
+	},
+	{
+		"i": 121,
+		"state": 16,
+		"center": 3531,
+		"burg": 300,
+		"name": "Lilenthgro",
+		"formName": "Shire",
+		"fullName": "Lilenthgro Shire",
+		"color": "#efb0d3",
+		"coa": {
+			"t1": "sable",
+			"charges": [
+				{
+					"charge": "bearRampant",
+					"t": "argent",
+					"p": "e",
+					"t2": "argent",
+					"t3": "argent",
+					"size": 1.5
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [385.234375, 428.890625],
+		"urban": 34.509,
+		"rural": 134.64667987823486,
+		"area": 1061,
+		"burgs": [67, 162, 39, 300, 275]
+	},
+	{
+		"i": 122,
+		"state": 16,
+		"center": 4007,
+		"burg": 121,
+		"name": "Mospel",
+		"formName": "County",
+		"fullName": "Mospel County",
+		"color": "#ff8adb",
+		"coa": {
+			"t1": "azure",
+			"charges": [
+				{ "charge": "billet", "t": "argent", "p": "e", "size": 1.5 }
+			],
+			"shield": "roman"
+		},
+		"pole": [363.625, 469.375],
+		"urban": 18.316,
+		"rural": 166.9657232761383,
+		"area": 1229,
+		"burgs": [144, 84, 121]
+	},
+	{
+		"i": 123,
+		"state": 16,
+		"center": 3105,
+		"burg": 305,
+		"name": "Lagoonzegra",
+		"formName": "County",
+		"fullName": "Lagoonzegra County",
+		"color": "#e0a1ed",
+		"coa": {
+			"t1": "gules",
+			"ordinaries": [{ "ordinary": "chevronReversed", "t": "argent" }],
+			"charges": [
+				{
+					"charge": "pegasus",
+					"t": "or",
+					"p": "b",
+					"t2": "or",
+					"t3": "or",
+					"size": 0.5
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [449.0703125, 407.8046875],
+		"urban": 29.531,
+		"rural": 255.53744196891785,
+		"area": 2142,
+		"burgs": [305, 185, 66, 20, 58, 34]
+	},
+	{
+		"i": 124,
+		"state": 16,
+		"center": 3800,
+		"burg": 238,
+		"name": "Cloudham",
+		"formName": "County",
+		"fullName": "Cloudham County",
+		"color": "#fdafd2",
+		"coa": {
+			"t1": "gules",
+			"division": {
+				"division": "perChevron",
+				"t": "or",
+				"line": "rayonne"
+			},
+			"charges": [
+				{
+					"charge": "fleurDeLis",
+					"t": "argent",
+					"p": "jlh",
+					"divided": "counter",
+					"size": 0.7
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [413.109375, 459.671875],
+		"urban": 10.835,
+		"rural": 53.56422281265259,
+		"area": 407,
+		"burgs": [238]
+	},
+	{
+		"i": 125,
+		"state": 16,
+		"center": 4004,
+		"burg": 360,
+		"name": "Wilreach",
+		"formName": "County",
+		"fullName": "Wilreach County",
+		"color": "#ff88e0",
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "horseHeadCouped",
+					"t": "sable",
+					"p": "e",
+					"size": 1.5
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [329.359375, 484.703125],
+		"urban": 11.252,
+		"rural": 33.029563426971436,
+		"area": 255,
+		"burgs": [360]
+	},
+	{
+		"i": 126,
+		"state": 17,
+		"center": 185,
+		"burg": 17,
+		"name": "Croi",
+		"formName": "County",
+		"fullName": "Croi County",
+		"color": "#cfc688",
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{
+					"charge": "wheatStalk",
+					"t": "purpure",
+					"p": "e",
+					"t2": "sable",
+					"size": 1.5
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [315.453125, 131.015625],
+		"urban": 34.582,
+		"rural": 148.81866598129272,
+		"area": 1436,
+		"burgs": [250, 17, 345, 230]
+	},
+	{
+		"i": 127,
+		"state": 17,
+		"center": 456,
+		"burg": 307,
+		"name": "Zigli",
+		"formName": "County",
+		"fullName": "Zigli County",
+		"color": "#d3c980",
+		"coa": {
+			"t1": "argent",
+			"ordinaries": [
+				{ "ordinary": "pale", "t": "sable", "line": "wavy" }
+			],
+			"charges": [
+				{ "charge": "mullet4", "t": "sable", "p": "y", "size": 0.5 }
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [335.859375, 167.734375],
+		"urban": 20.692,
+		"rural": 220.30590867996216,
+		"area": 3198,
+		"burgs": [307, 289]
+	},
+	{
+		"i": 128,
+		"state": 17,
+		"center": 41,
+		"burg": 172,
+		"name": "Kluird",
+		"formName": "County",
+		"fullName": "Kluird County",
+		"color": "#c7e673",
+		"coa": {
+			"t1": "argent",
+			"ordinaries": [
+				{
+					"ordinary": "terrace",
+					"t": "sable",
+					"line": "embattledNotched"
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [341.078125, 113.828125],
+		"urban": 18.595,
+		"rural": 108.19742441177368,
+		"area": 957,
+		"burgs": [172, 216, 319]
+	},
+	{
+		"i": 129,
+		"state": 17,
+		"center": 270,
+		"burg": 268,
+		"name": "Gneab",
+		"formName": "County",
+		"fullName": "Gneab County",
+		"color": "#c7e773",
+		"coa": {
+			"t1": "sable",
+			"ordinaries": [{ "ordinary": "pileInBend", "t": "or" }],
+			"charges": [
+				{ "charge": "bow", "t": "sable", "p": "e", "size": 0.5 }
+			],
+			"shield": "moriaOrc"
+		},
+		"pole": [269.3125, 146.3125],
+		"urban": 10.726999999999999,
+		"rural": 125.58275294303894,
+		"area": 1554,
+		"burgs": [276, 268]
+	},
+	{
+		"i": 130,
+		"state": 18,
+		"center": 2720,
+		"burg": 18,
+		"name": "Emouth",
+		"formName": "Earldom",
+		"fullName": "Emouth Earldom",
+		"color": "#f3f364",
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{
+					"charge": "hatchet",
+					"t": "argent",
+					"p": "e",
+					"t2": "argent",
+					"size": 1.5
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [318.46875, 374.40625],
+		"urban": 61.851,
+		"rural": 58.44184470176697,
+		"area": 663,
+		"burgs": [18]
+	},
+	{
+		"i": 131,
+		"state": 18,
+		"center": 2605,
+		"burg": 201,
+		"name": "Bellhand",
+		"formName": "County",
+		"fullName": "Bellhand County",
+		"color": "#f2f564",
+		"coa": {
+			"t1": "gules",
+			"division": { "division": "perPale", "t": "or", "line": "nebuly" },
+			"charges": [
+				{
+					"charge": "crossHummetty",
+					"t": "argent",
+					"p": "p",
+					"size": 0.7
+				},
+				{
+					"charge": "sunInSplendour",
+					"t": "vert",
+					"p": "q",
+					"size": 0.7
+				}
+			],
+			"shield": "roman"
+		},
+		"pole": [296.328125, 363.453125],
+		"urban": 13.187,
+		"rural": 43.7321662902832,
+		"area": 566,
+		"burgs": [201]
+	},
+	{
+		"i": 132,
+		"state": 19,
+		"center": 532,
+		"burg": 19,
+		"name": "Buzundab",
+		"formName": "County",
+		"fullName": "Buzundab County",
+		"color": "#dfbe9a",
+		"coa": {
+			"t1": "azure",
+			"ordinaries": [
+				{ "ordinary": "fess", "t": "argent", "line": "straight" }
+			],
+			"charges": [
+				{
+					"charge": "badgerStatant",
+					"t": "azure",
+					"p": "e",
+					"t2": "azure",
+					"size": 0.7
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [995.234375, 163.703125],
+		"urban": 41.519000000000005,
+		"rural": 239.4579336643219,
+		"area": 2120,
+		"burgs": [255, 19, 187, 108]
+	},
+	{
+		"i": 133,
+		"state": 19,
+		"center": 741,
+		"burg": 96,
+		"name": "Zakinbhur",
+		"formName": "County",
+		"fullName": "Zakinbhur County",
+		"color": "#ffb47d",
+		"coa": {
+			"t1": "azure",
+			"ordinaries": [
+				{ "ordinary": "pale", "t": "argent", "line": "indented" }
+			],
+			"charges": [
+				{
+					"charge": "lionRampant",
+					"t": "azure",
+					"p": "e",
+					"t2": "azure",
+					"t3": "azure",
+					"size": 0.7
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [995.1796875, 209.6953125],
+		"urban": 17.497,
+		"rural": 166.26800763607025,
+		"area": 1971,
+		"burgs": [96, 154]
+	},
+	{
+		"i": 134,
+		"state": 19,
+		"center": 847,
+		"burg": 262,
+		"name": "Nabar",
+		"formName": "Shire",
+		"fullName": "Nabar Shire",
+		"color": "#ecae8d",
+		"coa": {
+			"t1": "sable",
+			"charges": [
+				{
+					"charge": "greyhoundSejant",
+					"t": "or",
+					"p": "e",
+					"t2": "or",
+					"t3": "or",
+					"size": 1.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"pole": [1030.53125, 199.03125],
+		"urban": 18.119,
+		"rural": 115.0977873802185,
+		"area": 1507,
+		"burgs": [363, 262]
+	},
+	{
+		"i": 135,
+		"state": 7,
+		"center": 224,
+		"burg": 372,
+		"name": "Kasthim",
+		"formName": "Territory",
+		"fullName": "Kasthim Territory",
+		"color": "#f793a0",
+		"coa": {
+			"t1": "argent",
+			"ordinaries": [
+				{ "ordinary": "bendlet", "t": "gules", "line": "nowyReversed" },
+				{ "ordinary": "canton", "t": "gules" }
+			],
+			"charges": [
+				{ "charge": "anchor", "t": "argent", "p": "oe", "size": 0.3 },
+				{ "charge": "bugleHorn2", "t": "or", "p": "y", "size": 0.5 }
+			],
+			"shield": "fantasy2"
+		},
+		"pole": [555.125, 140.625],
+		"urban": 5.677,
+		"rural": 7.354838609695435,
+		"area": 178,
+		"burgs": [372]
+	},
+	{
+		"i": 136,
+		"state": 16,
+		"center": 3225,
+		"burg": 131,
+		"name": "Earthfield",
+		"formName": "Territory",
+		"fullName": "Earthfield Territory",
+		"color": "#edb0d5",
+		"coa": {
+			"t1": "purpure",
+			"division": { "division": "perFess", "t": "or", "line": "wavy" },
+			"shield": "roman"
+		},
+		"pole": [294.3125, 418.3125],
+		"urban": 1.781,
+		"rural": 35.10351300239563,
+		"area": 399,
+		"burgs": [131]
+	},
+	{
+		"i": 137,
+		"state": 19,
+		"center": 348,
+		"burg": 0,
+		"name": "Numunzdus",
+		"formName": "Island",
+		"fullName": "Numunzdus Island",
+		"color": "#f5d67a",
+		"coa": {
+			"t1": "chainy-argent-purpure-smaller",
+			"division": {
+				"division": "perCross",
+				"t": "chainy-gules-or",
+				"line": "straight"
+			},
+			"ordinaries": [
+				{ "ordinary": "bar", "t": "vert", "line": "straight" },
+				{ "ordinary": "canton", "t": "sable" }
+			],
+			"charges": [
+				{ "charge": "badgerStatant", "t": "or", "p": "y", "size": 0.5 }
+			],
+			"shield": "erebor"
+		},
+		"pole": [1033.5, 134.5],
+		"urban": 0,
+		"rural": 3.5718016624450684,
+		"area": 93,
+		"burgs": []
+	}
+]

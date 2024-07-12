@@ -2,22 +2,22 @@ import { Plugin } from "obsidian";
 import { MapImporterModal } from "src/MapImporterModal";
 import { SettingTab } from "./SettingTab";
 
-interface AzgaarObsidianPluginSettings {
+interface AzgaarFMGImporterPluginSettings {
   mySetting: string;
 }
 
-const DEFAULT_SETTINGS: AzgaarObsidianPluginSettings = {
+const DEFAULT_SETTINGS: AzgaarFMGImporterPluginSettings = {
   mySetting: "default",
 };
 
-export class AzgaarObsidianPlugin extends Plugin {
-  settings: AzgaarObsidianPluginSettings;
+export class AzgaarFMGImporterPlugin extends Plugin {
+  settings: AzgaarFMGImporterPluginSettings;
 
   async onload() {
     await this.loadSettings();
 
     this.addCommand({
-      id: "azgaar-obsidian-plugin-map-importer",
+      id: "azgaar-fmg-importer-plugin-importer",
       name: "Import Map",
       callback: () => new MapImporterModal(this.app).open(),
     });

@@ -1,5 +1,5 @@
 import { App, PluginSettingTab, Setting } from "obsidian";
-import type AzgaarObsidianPlugin from "./AzgaarObsidianPlugin";
+import type AzgaarObsidianPlugin from "./AzgaarFMGImporterPlugin";
 
 export class SettingTab extends PluginSettingTab {
   plugin: AzgaarObsidianPlugin;

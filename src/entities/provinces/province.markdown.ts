@@ -1,6 +1,6 @@
-import { FMG, TProvince } from "azgaar-fmg-parser";
 import Handlebars from "handlebars";
-import { generateNameMD } from "./name.template";
+import { FMG, TProvince } from "azgaar-fmg-parser";
+import { generateEntityLinkedMarkdown } from "src/utils";
 
 const template = Handlebars.compile(`---
 tags: province
@@ -33,16 +33,13 @@ fullName: {{fullName}}
 
 `);
 
-type GenerateProvinceMDProps = {
+type GenerateMarkdownProps = {
   fmg: FMG;
   province: TProvince;
 };
 
-export const generateProvinceMD = ({
-  fmg,
-  province,
-}: GenerateProvinceMDProps) => {
-  return template({
+export const generateMarkdown = ({ fmg, province }: GenerateMarkdownProps) =>
+  template({
     i: province.i,
     color: province.color,
     formName: province.formName,
@@ -52,8 +49,8 @@ export const generateProvinceMD = ({
     burg:
       !province.burgs || province.burgs.length === 0
         ? "N/A"
-        : generateNameMD({
-            variant: "Burgs",
+        : generateEntityLinkedMarkdown({
+            entityType: "BURG",
             name: fmg.burgs[province.burg].name,
           }),
 
@@ -67,14 +64,16 @@ export const generateProvinceMD = ({
         : province.burgs
             .map(
               (burgID) =>
-                `- ${generateNameMD({ variant: "Burgs", name: fmg.burgs[burgID].name })}`,
+                `- ${generateEntityLinkedMarkdown({ entityType: "BURG", name: fmg.burgs[burgID].name })}`,
             )
             .join("\n"),
 
-    name: generateNameMD({ variant: "Provinces", name: province.name }),
-    state: generateNameMD({
-      variant: "States",
+    name: generateEntityLinkedMarkdown({
+      entityType: "PROVINCE",
+      name: province.name,
+    }),
+    state: generateEntityLinkedMarkdown({
+      entityType: "STATE",
       name: fmg.states[province.state].name,
     }),
   });
-};

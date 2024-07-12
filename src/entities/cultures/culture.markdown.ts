@@ -1,6 +1,6 @@
-import { FMG, isDefaultCulture, TCulture } from "azgaar-fmg-parser";
 import Handlebars from "handlebars";
-import { generateNameMD } from "./name.template";
+import { generateEntityLinkedMarkdown } from "src/utils";
+import { FMG, isDefaultCulture, TCulture } from "azgaar-fmg-parser";
 
 const defaultTemplate = Handlebars.compile(`---
 tags: culture
@@ -41,13 +41,13 @@ expansionism: {{expansionism}}
 
 `);
 
-type GenerateCultureMDProps = {
+type GenerateMarkdownProps = {
   fmg: FMG;
   culture: TCulture;
 };
 
-export const generateCultureMD = ({ fmg, culture }: GenerateCultureMDProps) => {
-  return isDefaultCulture(culture)
+export const generateMarkdown = ({ fmg, culture }: GenerateMarkdownProps) =>
+  isDefaultCulture(culture)
     ? defaultTemplate({
         i: culture.i,
         name: culture.name,
@@ -63,18 +63,17 @@ export const generateCultureMD = ({ fmg, culture }: GenerateCultureMDProps) => {
 
         rawName: culture.name,
 
-        name: generateNameMD({
-          variant: "Cultures",
+        name: generateEntityLinkedMarkdown({
           name: culture.name,
+          entityType: "CULTURE",
         }),
 
         origins: culture.origins
           .map((cultureID) =>
-            generateNameMD({
-              variant: "Cultures",
+            generateEntityLinkedMarkdown({
+              entityType: "CULTURE",
               name: fmg.cultures[cultureID].name,
             }),
           )
           .join(", "),
       });
-};

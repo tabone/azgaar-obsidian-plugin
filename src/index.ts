@@ -1,1 +1,1 @@
-export { AzgaarObsidianPlugin as default } from "./AzgaarObsidianPlugin";
+export { AzgaarFMGImporterPlugin as default } from "./AzgaarFMGImporterPlugin";

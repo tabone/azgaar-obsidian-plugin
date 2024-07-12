@@ -1,6 +1,6 @@
-import { FMG, isDefaultReligion, TCulture, TReligion } from "azgaar-fmg-parser";
 import Handlebars from "handlebars";
-import { generateNameMD } from "./name.template";
+import { generateEntityLinkedMarkdown } from "src/utils";
+import { FMG, isDefaultReligion, TReligion } from "azgaar-fmg-parser";
 
 const defaultTemplate = Handlebars.compile(`---
 tags: religion
@@ -9,7 +9,7 @@ name: {{name}}
 ---
 |   |   |
 |---|---|
-| Name      | {{name}}      |
+| Name | {{name}} |
 
 ## Notes
 
@@ -43,16 +43,13 @@ expansionism: {{expansionism}}
 
 `);
 
-type GenerateReligionMDProps = {
+type GenerateMarkdownProps = {
   fmg: FMG;
   religion: TReligion;
 };
 
-export const generateReligionMD = ({
-  fmg,
-  religion,
-}: GenerateReligionMDProps) => {
-  return isDefaultReligion(religion)
+export const generateMarkdown = ({ fmg, religion }: GenerateMarkdownProps) =>
+  isDefaultReligion(religion)
     ? defaultTemplate({
         i: religion.i,
         name: religion.name,
@@ -70,21 +67,20 @@ export const generateReligionMD = ({
         rawName: religion.name,
         cultureID: religion.culture,
 
-        name: generateNameMD({
-          variant: "Religions",
+        name: generateEntityLinkedMarkdown({
+          entityType: "RELIGION",
           name: religion.name,
         }),
 
         origins: religion.origins.map((religionID) => {
-          return generateNameMD({
-            variant: "Religions",
+          return generateEntityLinkedMarkdown({
+            entityType: "RELIGION",
             name: fmg.religions[religionID].name,
           });
         }),
 
-        culture: generateNameMD({
-          variant: "Cultures",
+        culture: generateEntityLinkedMarkdown({
+          entityType: "CULTURE",
           name: fmg.cultures[religion.culture].name,
         }),
       });
-};

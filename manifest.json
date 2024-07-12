@@ -1,6 +1,6 @@
 {
-  "id": "azgaar-obsidian",
-  "name": "Azgaar's Fantasy Map Generator Importer",
+  "id": "azgaar-fmg-importer",
+  "name": "Azgaar's FMG Importer",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "An unofficial plugin that parses Azgaar's Fantasy Map Generator .map files and creates directories in an Obsidian vault for each Culture, State, Religion, Burg, and Province.",
