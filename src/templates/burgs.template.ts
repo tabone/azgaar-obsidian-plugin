@@ -20,10 +20,10 @@ const template = Handlebars.compile(`
 `);
 
 type GenerateBurgMDProps = {
-	coa: TBurg["coa"];
-	name: TBurg["name"];
+  coa: TBurg["coa"];
+  name: TBurg["name"];
 };
 
 export const generateBurgMD = ({ coa, name }: GenerateBurgMDProps) => {
-	return template({ coa: JSON.stringify(coa), name });
+  return template({ coa: JSON.stringify(coa), name });
 };

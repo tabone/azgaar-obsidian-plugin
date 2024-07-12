@@ -42,39 +42,39 @@ expansionism: {{expansionism}}
 `);
 
 type GenerateCultureMDProps = {
-	fmg: FMG;
-	culture: TCulture;
+  fmg: FMG;
+  culture: TCulture;
 };
 
 export const generateCultureMD = ({ fmg, culture }: GenerateCultureMDProps) => {
-	return isDefaultCulture(culture)
-		? defaultTemplate({
-				i: culture.i,
-				name: culture.name,
-				shield: culture.shield,
-			})
-		: definedTemplate({
-				i: culture.i,
-				type: culture.type,
-				code: culture.code,
-				color: culture.color,
-				shield: culture.shield,
-				expansionism: culture.expansionism,
+  return isDefaultCulture(culture)
+    ? defaultTemplate({
+        i: culture.i,
+        name: culture.name,
+        shield: culture.shield,
+      })
+    : definedTemplate({
+        i: culture.i,
+        type: culture.type,
+        code: culture.code,
+        color: culture.color,
+        shield: culture.shield,
+        expansionism: culture.expansionism,
 
-				rawName: culture.name,
+        rawName: culture.name,
 
-				name: generateNameMD({
-					variant: "Cultures",
-					name: culture.name,
-				}),
+        name: generateNameMD({
+          variant: "Cultures",
+          name: culture.name,
+        }),
 
-				origins: culture.origins
-					.map((cultureID) =>
-						generateNameMD({
-							variant: "Cultures",
-							name: fmg.cultures[cultureID].name,
-						}),
-					)
-					.join(", "),
-			});
+        origins: culture.origins
+          .map((cultureID) =>
+            generateNameMD({
+              variant: "Cultures",
+              name: fmg.cultures[cultureID].name,
+            }),
+          )
+          .join(", "),
+      });
 };

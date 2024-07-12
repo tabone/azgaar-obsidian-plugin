@@ -34,47 +34,47 @@ fullName: {{fullName}}
 `);
 
 type GenerateProvinceMDProps = {
-	fmg: FMG;
-	province: TProvince;
+  fmg: FMG;
+  province: TProvince;
 };
 
 export const generateProvinceMD = ({
-	fmg,
-	province,
+  fmg,
+  province,
 }: GenerateProvinceMDProps) => {
-	return template({
-		i: province.i,
-		color: province.color,
-		formName: province.formName,
-		fullName: province.fullName,
-		coa: JSON.stringify(province.coa),
+  return template({
+    i: province.i,
+    color: province.color,
+    formName: province.formName,
+    fullName: province.fullName,
+    coa: JSON.stringify(province.coa),
 
-		burg:
-			!province.burgs || province.burgs.length === 0
-				? "N/A"
-				: generateNameMD({
-						variant: "Burgs",
-						name: fmg.burgs[province.burg].name,
-					}),
+    burg:
+      !province.burgs || province.burgs.length === 0
+        ? "N/A"
+        : generateNameMD({
+            variant: "Burgs",
+            name: fmg.burgs[province.burg].name,
+          }),
 
-		burgID: province.burg,
-		rawName: province.name,
-		stateID: province.state,
+    burgID: province.burg,
+    rawName: province.name,
+    stateID: province.state,
 
-		burgs:
-			!province.burgs || province.burgs.length === 0
-				? "N/A"
-				: province.burgs
-						.map(
-							(burgID) =>
-								`- ${generateNameMD({ variant: "Burgs", name: fmg.burgs[burgID].name })}`,
-						)
-						.join("\n"),
+    burgs:
+      !province.burgs || province.burgs.length === 0
+        ? "N/A"
+        : province.burgs
+            .map(
+              (burgID) =>
+                `- ${generateNameMD({ variant: "Burgs", name: fmg.burgs[burgID].name })}`,
+            )
+            .join("\n"),
 
-		name: generateNameMD({ variant: "Provinces", name: province.name }),
-		state: generateNameMD({
-			variant: "States",
-			name: fmg.states[province.state].name,
-		}),
-	});
+    name: generateNameMD({ variant: "Provinces", name: province.name }),
+    state: generateNameMD({
+      variant: "States",
+      name: fmg.states[province.state].name,
+    }),
+  });
 };

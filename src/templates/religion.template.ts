@@ -44,47 +44,47 @@ expansionism: {{expansionism}}
 `);
 
 type GenerateReligionMDProps = {
-	fmg: FMG;
-	religion: TReligion;
+  fmg: FMG;
+  religion: TReligion;
 };
 
 export const generateReligionMD = ({
-	fmg,
-	religion,
+  fmg,
+  religion,
 }: GenerateReligionMDProps) => {
-	return isDefaultReligion(religion)
-		? defaultTemplate({
-				i: religion.i,
-				name: religion.name,
-			})
-		: definedTemplate({
-				i: religion.i,
-				code: religion.code,
-				form: religion.form,
-				type: religion.type,
-				deity: religion.deity,
-				color: religion.color,
-				expansion: religion.expansion,
-				expansionism: religion.expansionism,
+  return isDefaultReligion(religion)
+    ? defaultTemplate({
+        i: religion.i,
+        name: religion.name,
+      })
+    : definedTemplate({
+        i: religion.i,
+        code: religion.code,
+        form: religion.form,
+        type: religion.type,
+        deity: religion.deity,
+        color: religion.color,
+        expansion: religion.expansion,
+        expansionism: religion.expansionism,
 
-				rawName: religion.name,
-				cultureID: religion.culture,
+        rawName: religion.name,
+        cultureID: religion.culture,
 
-				name: generateNameMD({
-					variant: "Religions",
-					name: religion.name,
-				}),
+        name: generateNameMD({
+          variant: "Religions",
+          name: religion.name,
+        }),
 
-				origins: religion.origins.map((religionID) => {
-					return generateNameMD({
-						variant: "Religions",
-						name: fmg.religions[religionID].name,
-					});
-				}),
+        origins: religion.origins.map((religionID) => {
+          return generateNameMD({
+            variant: "Religions",
+            name: fmg.religions[religionID].name,
+          });
+        }),
 
-				culture: generateNameMD({
-					variant: "Cultures",
-					name: fmg.cultures[religion.culture].name,
-				}),
-			});
+        culture: generateNameMD({
+          variant: "Cultures",
+          name: fmg.cultures[religion.culture].name,
+        }),
+      });
 };
