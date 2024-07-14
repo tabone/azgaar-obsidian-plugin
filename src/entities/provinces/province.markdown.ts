@@ -12,6 +12,7 @@ color: "{{color}}"
 formName: {{formName}}
 fullName: {{fullName}}
 ---
+
 <div>
   <img style="border:none; box-shadow:none" width="200px" src="https://armoria.herokuapp.com/?coa={{coa}}" />
 </div>

@@ -1,6 +1,6 @@
 import { Plugin } from "obsidian";
-import { MapImporterModal } from "src/MapImporterModal";
 import { SettingTab } from "./SettingTab";
+import { MapImporterModal } from "./MapImporterModal";
 
 interface AzgaarFMGImporterPluginSettings {
   mySetting: string;

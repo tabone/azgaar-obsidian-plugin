@@ -7,6 +7,7 @@ tags: religion
 id: {{i}}
 name: {{name}}
 ---
+
 |   |   |
 |---|---|
 | Name | {{name}} |
@@ -26,6 +27,7 @@ culture: {{cultureID}}
 expansion: {{expansion}}
 expansionism: {{expansionism}}
 ---
+
 |   |   |
 |---|---|
 | Name         | {{name}}         |

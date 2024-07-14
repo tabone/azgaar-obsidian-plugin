@@ -1,6 +1,7 @@
 import { App, Modal, Notice } from "obsidian";
 import { FMG } from "azgaar-fmg-parser";
 import {
+  generateBurgs,
   generateCultures,
   generateProvinces,
   generateReligions,
@@ -52,6 +53,11 @@ export class MapImporterModal extends Modal {
         }),
 
         generateReligions({
+          fmg,
+          app: this.app,
+        }),
+
+        generateBurgs({
           fmg,
           app: this.app,
         }),

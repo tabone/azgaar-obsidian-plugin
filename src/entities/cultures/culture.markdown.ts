@@ -5,9 +5,10 @@ import { FMG, isDefaultCulture, TCulture } from "azgaar-fmg-parser";
 const defaultTemplate = Handlebars.compile(`---
 tags: culture
 id: {{i}}
-name: {{name}}
+name: {{rawName}}
 shield: {{shield}}
 ---
+
 |   |   |
 |---|---|
 | Name    | {{name}}    |
@@ -20,13 +21,14 @@ shield: {{shield}}
 const definedTemplate = Handlebars.compile(`---
 tags: culture
 id: {{i}}
-name: {{rawName}}
 type: {{type}}
 code: {{code}}
+name: {{rawName}}
 color: "{{color}}"
 shield: {{shield}}
 expansionism: {{expansionism}}
 ---
+
 |   |   |
 |---|---|
 | Name         | {{name}}         |
