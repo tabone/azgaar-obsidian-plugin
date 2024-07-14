@@ -25,10 +25,7 @@ fullName: {{fullName}}
 | Full Name | {{fullName}} |
 | State     | {{state}}    |
 | Color     | {{color}}    |
-
-## Burgs
-
-{{burgs}}
+| Burgs     | {{burgs}}    |
 
 ## Notes
 
@@ -39,8 +36,27 @@ type GenerateMarkdownProps = {
   province: TProvince;
 };
 
-export const generateMarkdown = ({ fmg, province }: GenerateMarkdownProps) =>
-  template({
+export const generateMarkdown = ({ fmg, province }: GenerateMarkdownProps) => {
+  const burgs = !province.burgs
+    ? []
+    : province.burgs
+        .reduce<string[]>((burgs, burgID) => {
+          const burg = fmg.burgs[burgID];
+
+          if (burg) {
+            burgs.push(
+              generateEntityLinkedMarkdown({
+                name: burg.name,
+                entityType: "BURG",
+              }),
+            );
+          }
+
+          return burgs;
+        }, [])
+        .join(", ");
+
+  return template({
     i: province.i,
     color: province.color,
     formName: province.formName,
@@ -48,7 +64,7 @@ export const generateMarkdown = ({ fmg, province }: GenerateMarkdownProps) =>
     coa: JSON.stringify(province.coa),
 
     burg:
-      !province.burgs || province.burgs.length === 0
+      burgs.length === 0
         ? "N/A"
         : generateEntityLinkedMarkdown({
             entityType: "BURG",
@@ -59,15 +75,7 @@ export const generateMarkdown = ({ fmg, province }: GenerateMarkdownProps) =>
     rawName: province.name,
     stateID: province.state,
 
-    burgs:
-      !province.burgs || province.burgs.length === 0
-        ? "N/A"
-        : province.burgs
-            .map(
-              (burgID) =>
-                `- ${generateEntityLinkedMarkdown({ entityType: "BURG", name: fmg.burgs[burgID].name })}`,
-            )
-            .join("\n"),
+    burgs: burgs.length === 0 ? "N/A" : burgs,
 
     name: generateEntityLinkedMarkdown({
       entityType: "PROVINCE",
@@ -78,3 +86,4 @@ export const generateMarkdown = ({ fmg, province }: GenerateMarkdownProps) =>
       name: fmg.states[province.state].name,
     }),
   });
+};

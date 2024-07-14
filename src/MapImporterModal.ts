@@ -5,6 +5,7 @@ import {
   generateCultures,
   generateProvinces,
   generateReligions,
+  generateStates,
 } from "./entities";
 
 export class MapImporterModal extends Modal {
@@ -58,6 +59,11 @@ export class MapImporterModal extends Modal {
         }),
 
         generateBurgs({
+          fmg,
+          app: this.app,
+        }),
+
+        generateStates({
           fmg,
           app: this.app,
         }),

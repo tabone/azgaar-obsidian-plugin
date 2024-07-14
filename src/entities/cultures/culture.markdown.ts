@@ -52,8 +52,14 @@ export const generateMarkdown = ({ fmg, culture }: GenerateMarkdownProps) =>
   isDefaultCulture(culture)
     ? defaultTemplate({
         i: culture.i,
-        name: culture.name,
         shield: culture.shield,
+
+        rawName: culture.name,
+
+        name: generateEntityLinkedMarkdown({
+          name: culture.name,
+          entityType: "CULTURE",
+        }),
       })
     : definedTemplate({
         i: culture.i,
