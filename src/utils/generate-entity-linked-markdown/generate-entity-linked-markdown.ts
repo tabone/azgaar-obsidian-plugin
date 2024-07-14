@@ -16,6 +16,6 @@ export const generateEntityLinkedMarkdown = ({
   return generateLinkedMarkdown({
     name,
     alias,
-    directory: `${ENTITY_DIRECTORIES[entityType]}/${name}`,
+    directory: `${ENTITY_DIRECTORIES[entityType]}`,
   });
 };
