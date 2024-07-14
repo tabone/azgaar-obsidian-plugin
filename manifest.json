@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+  "id": "azgaar-fmg-importer",
+  "name": "Azgaar's FMG Importer",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Parses Azgaar's Fantasy Map Generator .map files and creates separate files for each Culture, State, Religion, Burg, and Province.",
+  "author": "Luca Tabone",
+  "authorUrl": "https://lucatabone.com",
+  "fundingUrl": "https://ko-fi.com/tabone",
+  "isDesktopOnly": false
 }

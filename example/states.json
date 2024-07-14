@@ -1,0 +1,2884 @@
+[
+	{
+		"i": 0,
+		"name": "Neutrals",
+		"neighbors": [6, 19, 12],
+		"provinces": []
+	},
+	{
+		"i": 1,
+		"color": "#66c2a5",
+		"name": "Ala",
+		"expansionism": 6.4,
+		"capital": 1,
+		"type": "Nomadic",
+		"culture": 10,
+		"coa": {
+			"t1": "vert",
+			"charges": [
+				{
+					"charge": "camel",
+					"t": "or",
+					"p": "e",
+					"t2": "argent",
+					"size": 1.5
+				}
+			],
+			"shield": "round"
+		},
+		"neighbors": [15, 14, 7, 3, 16, 8],
+		"form": "Monarchy",
+		"formName": "Khaganate",
+		"fullName": "Alan Khaganate",
+		"provinces": [1, 2, 3, 4, 5, 6, 7, 8],
+		"alert": 1.43
+	},
+	{
+		"i": 2,
+		"color": "#fc8d62",
+		"name": "Laughei",
+		"expansionism": 6.2,
+		"capital": 2,
+		"type": "Generic",
+		"center": 3057,
+		"culture": 9,
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "bell",
+					"t": "gules",
+					"p": "kn",
+					"t2": "gules",
+					"size": 0.7
+				}
+			],
+			"shield": "noldor"
+		},
+		"urban": 181.201,
+		"rural": 928.8092535734177,
+		"burgs": 19,
+		"area": 6882,
+		"cells": 82,
+		"neighbors": [5, 13, 9],
+		"campaigns": [
+			{
+				"name": "Sylsanilfan War",
+				"start": 1463,
+				"end": 1473
+			},
+			{
+				"name": "Wlanalas War",
+				"start": 1570,
+				"end": 1581
+			},
+			{
+				"name": "Yuegheiquan War",
+				"start": 1687,
+				"end": 1688
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Unknown",
+			"x",
+			"Neutral",
+			"Neutral",
+			"Suspicion",
+			"Ally",
+			"Neutral",
+			"Unknown",
+			"Rival",
+			"Friendly",
+			"Ally",
+			"Friendly",
+			"Rival",
+			"Unknown",
+			"Neutral",
+			"Neutral",
+			"Neutral",
+			"Neutral",
+			"Ally"
+		],
+		"form": "Monarchy",
+		"formName": "Grand Duchy",
+		"fullName": "Grand Duchy of Laughei",
+		"provinces": [9, 10, 11, 12, 13, 14],
+		"pole": [1188.00390625, 363.26171875],
+		"alert": 4.32,
+		"military": [
+			{
+				"i": 0,
+				"a": 14933,
+				"cell": 2809,
+				"x": 1179.78,
+				"y": 379.08,
+				"bx": 1179.78,
+				"by": 379.08,
+				"u": {
+					"archers": 6232,
+					"cavalry": 1911,
+					"artillery": 135,
+					"infantry": 6655
+				},
+				"n": 0,
+				"name": "1st (Linle) Regiment",
+				"state": 2,
+				"icon": "⚔️"
+			},
+			{
+				"i": 1,
+				"a": 3484,
+				"cell": 2697,
+				"x": 1232.6,
+				"y": 364.09,
+				"bx": 1232.6,
+				"by": 364.09,
+				"u": {
+					"archers": 1805,
+					"cavalry": 216,
+					"artillery": 47,
+					"infantry": 1416
+				},
+				"n": 0,
+				"name": "2nd (Aethelve) Regiment",
+				"state": 2,
+				"icon": "🏹"
+			},
+			{
+				"i": 2,
+				"a": 2466,
+				"cell": 2351,
+				"x": 1185.74,
+				"y": 334.77,
+				"bx": 1185.74,
+				"by": 334.77,
+				"u": {
+					"archers": 931,
+					"cavalry": 380,
+					"artillery": 34,
+					"infantry": 1121
+				},
+				"n": 0,
+				"name": "3rd (Thile) Regiment",
+				"state": 2,
+				"icon": "⚔️"
+			},
+			{
+				"i": 3,
+				"a": 2426,
+				"cell": 2574,
+				"x": 1152.85,
+				"y": 357.33,
+				"bx": 1152.85,
+				"by": 357.33,
+				"u": {
+					"infantry": 1179,
+					"cavalry": 453,
+					"artillery": 51,
+					"archers": 743
+				},
+				"n": 0,
+				"name": "4th (Ahethalyelo) Regiment",
+				"state": 2,
+				"icon": "⚔️"
+			},
+			{
+				"i": 4,
+				"a": 10,
+				"cell": 3057,
+				"x": 1199.05,
+				"y": 396.38,
+				"bx": 1199.05,
+				"by": 396.38,
+				"u": {
+					"fleet": 10
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 2,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 3,
+		"color": "#8da0cb",
+		"name": "Kalala",
+		"expansionism": 3.8,
+		"capital": 3,
+		"type": "Nomadic",
+		"center": 2084,
+		"culture": 10,
+		"coa": {
+			"t1": "argent",
+			"division": {
+				"division": "perBend",
+				"t": "azure",
+				"line": "straight"
+			},
+			"charges": [
+				{
+					"charge": "swanErased",
+					"t": "vert",
+					"p": "l",
+					"t2": "vert",
+					"t3": "vert",
+					"size": 0.7
+				},
+				{
+					"charge": "heart",
+					"t": "or",
+					"p": "m",
+					"size": 0.7
+				}
+			],
+			"shield": "round"
+		},
+		"urban": 164.646,
+		"rural": 1363.480869293213,
+		"burgs": 16,
+		"area": 21618,
+		"cells": 208,
+		"neighbors": [1, 7, 6, 4, 10, 8],
+		"campaigns": [
+			{
+				"name": "Grirean Rebellion",
+				"start": 1267,
+				"end": 1271
+			},
+			{
+				"name": "Yadan War",
+				"start": 1496,
+				"end": 1502
+			},
+			{
+				"name": "Ocalekyurt Expedition",
+				"start": 1570,
+				"end": 1575
+			},
+			{
+				"name": "Kobalaz War",
+				"start": 1671,
+				"end": 1672
+			},
+			{
+				"name": "Ayansuan Campaign",
+				"start": 1704,
+				"end": 1705
+			},
+			{
+				"name": "Aktar Invasion",
+				"start": 1704,
+				"end": 1705
+			},
+			{
+				"name": "Shathizian War",
+				"start": 1710,
+				"end": 1710
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Suspicion",
+			"Neutral",
+			"x",
+			"Suzerain",
+			"Ally",
+			"Suspicion",
+			"Enemy",
+			"Suspicion",
+			"Ally",
+			"Rival",
+			"Suspicion",
+			"Friendly",
+			"Friendly",
+			"Suspicion",
+			"Friendly",
+			"Ally",
+			"Friendly",
+			"Friendly",
+			"Suspicion"
+		],
+		"form": "Monarchy",
+		"formName": "Khaganate",
+		"fullName": "Kalalan Khaganate",
+		"provinces": [15, 16, 17, 18, 19],
+		"pole": [675.046875, 335.359375],
+		"alert": 1.84,
+		"military": [
+			{
+				"i": 0,
+				"a": 5896,
+				"cell": 2309,
+				"x": 753.39,
+				"y": 339.75,
+				"bx": 753.39,
+				"by": 339.75,
+				"u": {
+					"cavalry": 3961,
+					"archers": 1005,
+					"infantry": 900,
+					"artillery": 30
+				},
+				"n": 0,
+				"name": "1st (Anarsyurt) Regiment",
+				"state": 3,
+				"icon": "🐴"
+			},
+			{
+				"i": 1,
+				"a": 3805,
+				"cell": 2301,
+				"x": 661.82,
+				"y": 335.89,
+				"bx": 661.82,
+				"by": 335.89,
+				"u": {
+					"cavalry": 2896,
+					"infantry": 408,
+					"archers": 491,
+					"artillery": 10
+				},
+				"n": 0,
+				"name": "2nd (Boy) Regiment",
+				"state": 3,
+				"icon": "🐴"
+			},
+			{
+				"i": 2,
+				"a": 1889,
+				"cell": 2085,
+				"x": 730.51,
+				"y": 311.68,
+				"bx": 730.51,
+				"by": 311.68,
+				"u": {
+					"cavalry": 1105,
+					"infantry": 355,
+					"archers": 408,
+					"artillery": 21
+				},
+				"n": 0,
+				"name": "3rd (Boy) Regiment",
+				"state": 3,
+				"icon": "🐴"
+			},
+			{
+				"i": 3,
+				"a": 1303,
+				"cell": 1528,
+				"x": 604.76,
+				"y": 264.27,
+				"bx": 604.76,
+				"by": 264.27,
+				"u": {
+					"cavalry": 1184,
+					"infantry": 37,
+					"archers": 82
+				},
+				"n": 0,
+				"name": "4th (Boy) Regiment",
+				"state": 3,
+				"icon": "🐴"
+			},
+			{
+				"i": 4,
+				"a": 1195,
+				"cell": 2636,
+				"x": 623.5,
+				"y": 362.58,
+				"bx": 623.5,
+				"by": 362.58,
+				"u": {
+					"cavalry": 1088,
+					"infantry": 35,
+					"archers": 72
+				},
+				"n": 0,
+				"name": "5th (Edieri) Regiment",
+				"state": 3,
+				"icon": "🐴"
+			},
+			{
+				"i": 5,
+				"a": 3,
+				"cell": 2649,
+				"x": 736.13,
+				"y": 377.8,
+				"bx": 736.13,
+				"by": 377.8,
+				"u": {
+					"fleet": 3
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 3,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 4,
+		"color": "#e78ac3",
+		"name": "Ocalekyurt",
+		"expansionism": 1.8,
+		"capital": 4,
+		"type": "Nomadic",
+		"center": 2766,
+		"culture": 10,
+		"coa": {
+			"t1": "semy_of_mullet-or-purpure",
+			"division": {
+				"division": "perPale",
+				"t": "azure",
+				"line": "straight"
+			},
+			"ordinaries": [
+				{
+					"ordinary": "pale",
+					"t": "sable",
+					"line": "straight"
+				}
+			],
+			"shield": "round"
+		},
+		"urban": 31.011000000000003,
+		"rural": 254.28283309936523,
+		"burgs": 5,
+		"area": 2830,
+		"cells": 35,
+		"neighbors": [3, 10],
+		"campaigns": [
+			{
+				"name": "Blacish Campaign",
+				"start": 1465,
+				"end": 1466
+			},
+			{
+				"name": "Kalalan War",
+				"start": 1485,
+				"end": 1486
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Suspicion",
+			"Neutral",
+			"Vassal",
+			"x",
+			"Ally",
+			"Suspicion",
+			"Enemy",
+			"Suspicion",
+			"Ally",
+			"Rival",
+			"Suspicion",
+			"Friendly",
+			"Friendly",
+			"Suspicion",
+			"Friendly",
+			"Ally",
+			"Friendly",
+			"Friendly",
+			"Suspicion"
+		],
+		"form": "Monarchy",
+		"formName": "Horde",
+		"fullName": "Ocalekyurt Horde",
+		"provinces": [20, 21],
+		"pole": [768.9140625, 386.0703125],
+		"alert": 1.19,
+		"military": [
+			{
+				"i": 0,
+				"a": 1889,
+				"cell": 2651,
+				"x": 756.82,
+				"y": 369.66,
+				"bx": 756.82,
+				"by": 369.66,
+				"u": {
+					"cavalry": 1387,
+					"archers": 304,
+					"infantry": 193,
+					"artillery": 5
+				},
+				"n": 0,
+				"name": "1st (Obadalyurt) Regiment",
+				"state": 4,
+				"icon": "🐴"
+			}
+		]
+	},
+	{
+		"i": 5,
+		"color": "#a6d854",
+		"name": "Wlanalas",
+		"expansionism": 3.2,
+		"capital": 5,
+		"type": "Generic",
+		"center": 2128,
+		"culture": 9,
+		"coa": {
+			"t1": "gules",
+			"division": {
+				"division": "perPale",
+				"t": "or",
+				"line": "straight"
+			},
+			"charges": [
+				{
+					"charge": "pique",
+					"t": "argent",
+					"p": "e",
+					"divided": "counter",
+					"size": 1.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"urban": 111.71499999999999,
+		"rural": 881.9021451473236,
+		"burgs": 15,
+		"area": 6538,
+		"cells": 67,
+		"neighbors": [9, 2],
+		"campaigns": [
+			{
+				"name": "Sylsanilfan Conquest",
+				"start": 1530,
+				"end": 1531
+			},
+			{
+				"name": "Entheashal Crusade",
+				"start": 1657,
+				"end": 1663
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Neutral",
+			"Suspicion",
+			"Ally",
+			"Ally",
+			"x",
+			"Neutral",
+			"Enemy",
+			"Neutral",
+			"Suspicion",
+			"Unknown",
+			"Neutral",
+			"Friendly",
+			"Ally",
+			"Neutral",
+			"Neutral",
+			"Suspicion",
+			"Neutral",
+			"Neutral",
+			"Neutral"
+		],
+		"form": "Monarchy",
+		"formName": "Grand Duchy",
+		"fullName": "Grand Duchy of Wlanalas",
+		"provinces": [22, 23, 24, 25, 26],
+		"pole": [1183.90625, 295.65625],
+		"alert": 1.28,
+		"military": [
+			{
+				"i": 0,
+				"a": 3777,
+				"cell": 2017,
+				"x": 1172.17,
+				"y": 301.44,
+				"bx": 1172.17,
+				"by": 301.44,
+				"u": {
+					"archers": 1832,
+					"artillery": 26,
+					"infantry": 1596,
+					"cavalry": 323
+				},
+				"n": 0,
+				"name": "1st (Ariremar) Regiment",
+				"state": 5,
+				"icon": "🏹"
+			},
+			{
+				"i": 1,
+				"a": 2402,
+				"cell": 1693,
+				"x": 1183.69,
+				"y": 276.74,
+				"bx": 1183.69,
+				"by": 276.74,
+				"u": {
+					"archers": 1137,
+					"cavalry": 218,
+					"artillery": 24,
+					"infantry": 1023
+				},
+				"n": 0,
+				"name": "2nd (Nanassad) Regiment",
+				"state": 5,
+				"icon": "🏹"
+			},
+			{
+				"i": 2,
+				"a": 1,
+				"cell": 1589,
+				"x": 1199.28,
+				"y": 252.8,
+				"bx": 1199.28,
+				"by": 252.8,
+				"u": {
+					"fleet": 1
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 5,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 6,
+		"color": "#ffd92f",
+		"name": "Ulgathel",
+		"expansionism": 5.6,
+		"capital": 6,
+		"type": "Generic",
+		"center": 429,
+		"culture": 4,
+		"coa": {
+			"t1": "azure",
+			"division": {
+				"division": "perPale",
+				"t": "or",
+				"line": "engrailed"
+			},
+			"charges": [
+				{
+					"charge": "scythe",
+					"t": "argent",
+					"p": "p",
+					"t2": "argent",
+					"size": 0.7
+				},
+				{
+					"charge": "eagleTwoHeads",
+					"t": "purpure",
+					"p": "q",
+					"size": 0.7
+				}
+			],
+			"shield": "erebor"
+		},
+		"urban": 163.853,
+		"rural": 1035.0799485445023,
+		"burgs": 16,
+		"area": 14037,
+		"cells": 144,
+		"neighbors": [19, 0, 11, 7, 12, 13, 3, 10],
+		"campaigns": [
+			{
+				"name": "Blacish Campaign",
+				"start": 1432,
+				"end": 1440
+			},
+			{
+				"name": "Gabilese Campaign",
+				"start": 1519,
+				"end": 1520
+			},
+			{
+				"name": "Nuzunese War",
+				"start": 1611,
+				"end": 1612
+			},
+			{
+				"name": "Khar Intervention",
+				"start": 1693,
+				"end": 1703
+			},
+			{
+				"name": "Gabar Campaign",
+				"start": 1700,
+				"end": 1709
+			},
+			{
+				"name": "Shathiz War",
+				"start": 1704,
+				"end": 1709
+			},
+			{
+				"name": "Bulukzar War",
+				"start": 1704,
+				"end": 1708
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Ally",
+			"Ally",
+			"Suspicion",
+			"Suspicion",
+			"Neutral",
+			"x",
+			"Suspicion",
+			"Ally",
+			"Neutral",
+			"Suspicion",
+			"Suzerain",
+			"Neutral",
+			"Suspicion",
+			"Ally",
+			"Ally",
+			"Neutral",
+			"Ally",
+			"Ally",
+			"Suzerain"
+		],
+		"form": "Monarchy",
+		"formName": "Kingdom",
+		"fullName": "Kingdom of Ulgathel",
+		"provinces": [27, 28, 29, 30, 31, 32, 33],
+		"pole": [873.77734375, 323.19921875],
+		"alert": 1.15,
+		"military": [
+			{
+				"i": 0,
+				"a": 3788,
+				"cell": 840,
+				"x": 960.03,
+				"y": 190.92,
+				"bx": 960.03,
+				"by": 190.92,
+				"u": {
+					"archers": 1505,
+					"cavalry": 539,
+					"infantry": 1701,
+					"artillery": 43
+				},
+				"n": 0,
+				"name": "1st (Kinzargu) Regiment",
+				"state": 6,
+				"icon": "⚔️"
+			},
+			{
+				"i": 1,
+				"a": 2845,
+				"cell": 1442,
+				"x": 873.05,
+				"y": 252.54,
+				"bx": 873.05,
+				"by": 252.54,
+				"u": {
+					"infantry": 1125,
+					"cavalry": 1027,
+					"artillery": 21,
+					"archers": 672
+				},
+				"n": 0,
+				"name": "2nd (Undab) Regiment",
+				"state": 6,
+				"icon": "⚔️"
+			},
+			{
+				"i": 2,
+				"a": 1861,
+				"cell": 429,
+				"x": 949.61,
+				"y": 148.03,
+				"bx": 949.61,
+				"by": 148.03,
+				"u": {
+					"archers": 835,
+					"cavalry": 195,
+					"artillery": 33,
+					"infantry": 798
+				},
+				"n": 0,
+				"name": "3rd (Bakinbhur) Regiment",
+				"state": 6,
+				"icon": "👑"
+			},
+			{
+				"i": 3,
+				"a": 7,
+				"cell": 429,
+				"x": 948.86,
+				"y": 139.68,
+				"bx": 948.86,
+				"by": 139.68,
+				"u": {
+					"fleet": 7
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 6,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 7,
+		"color": "#f39588",
+		"name": "Shathiz",
+		"expansionism": 5.1,
+		"capital": 7,
+		"type": "Generic",
+		"center": 712,
+		"culture": 4,
+		"coa": {
+			"t1": "or",
+			"ordinaries": [
+				{
+					"ordinary": "orle",
+					"t": "gules"
+				}
+			],
+			"charges": [
+				{
+					"charge": "bugleHorn2",
+					"t": "azure",
+					"p": "e",
+					"t2": "purpure",
+					"size": 1.1
+				}
+			],
+			"shield": "erebor"
+		},
+		"urban": 256.741,
+		"rural": 2456.221721768379,
+		"burgs": 46,
+		"area": 29737,
+		"cells": 314,
+		"neighbors": [15, 11, 1, 6, 3],
+		"campaigns": [
+			{
+				"name": "Gabar Campaign",
+				"start": 1438,
+				"end": 1445
+			},
+			{
+				"name": "Zizar War",
+				"start": 1476,
+				"end": 1479
+			},
+			{
+				"name": "Kalalan Expedition",
+				"start": 1521,
+				"end": 1522
+			},
+			{
+				"name": "Shiz Conflict",
+				"start": 1687,
+				"end": 1705
+			},
+			{
+				"name": "Gneabs Rebellion",
+				"start": 1703,
+				"end": 1704
+			},
+			{
+				"name": "Kalalian War",
+				"start": 1710,
+				"end": 1710
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Neutral",
+			"Neutral",
+			"Enemy",
+			"Enemy",
+			"Enemy",
+			"Suspicion",
+			"x",
+			"Neutral",
+			"Enemy",
+			"Friendly",
+			"Suspicion",
+			"Friendly",
+			"Friendly",
+			"Neutral",
+			"Suspicion",
+			"Enemy",
+			"Suspicion",
+			"Suspicion",
+			"Suspicion"
+		],
+		"form": "Monarchy",
+		"formName": "Empire",
+		"fullName": "Shathiz Empire",
+		"provinces": [
+			34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 135
+		],
+		"pole": [800.015625, 237.859375],
+		"alert": 1.16,
+		"military": [
+			{
+				"i": 0,
+				"a": 3575,
+				"cell": 1436,
+				"x": 811.11,
+				"y": 255.19,
+				"bx": 811.11,
+				"by": 255.19,
+				"u": {
+					"infantry": 1614,
+					"cavalry": 865,
+					"archers": 1079,
+					"artillery": 17
+				},
+				"n": 0,
+				"name": "1st (Naram) Regiment",
+				"state": 7,
+				"icon": "⚔️"
+			},
+			{
+				"i": 1,
+				"a": 2681,
+				"cell": 1198,
+				"x": 632.61,
+				"y": 234.57,
+				"bx": 632.61,
+				"by": 234.57,
+				"u": {
+					"infantry": 1220,
+					"cavalry": 567,
+					"artillery": 18,
+					"archers": 876
+				},
+				"n": 0,
+				"name": "2nd (Kharbabar) Regiment",
+				"state": 7,
+				"icon": "⚔️"
+			},
+			{
+				"i": 2,
+				"a": 2413,
+				"cell": 1430,
+				"x": 750.07,
+				"y": 250.03,
+				"bx": 750.07,
+				"by": 250.03,
+				"u": {
+					"infantry": 1179,
+					"cavalry": 601,
+					"artillery": 13,
+					"archers": 620
+				},
+				"n": 0,
+				"name": "3rd (Barar) Regiment",
+				"state": 7,
+				"icon": "⚔️"
+			},
+			{
+				"i": 3,
+				"a": 2120,
+				"cell": 1212,
+				"x": 780.94,
+				"y": 236.35,
+				"bx": 780.94,
+				"by": 236.35,
+				"u": {
+					"infantry": 990,
+					"cavalry": 529,
+					"artillery": 13,
+					"archers": 588
+				},
+				"n": 0,
+				"name": "4th (Bundushel) Regiment",
+				"state": 7,
+				"icon": "⚔️"
+			},
+			{
+				"i": 4,
+				"a": 295,
+				"cell": 1313,
+				"x": 717.45,
+				"y": 246.22,
+				"bx": 717.45,
+				"by": 246.22,
+				"u": {
+					"infantry": 147,
+					"archers": 72,
+					"cavalry": 76
+				},
+				"n": 0,
+				"name": "5th (Barar) Regiment",
+				"state": 7,
+				"icon": "⚔️"
+			},
+			{
+				"i": 5,
+				"a": 5,
+				"cell": 809,
+				"x": 696.91,
+				"y": 192.88,
+				"bx": 696.91,
+				"by": 192.88,
+				"u": {
+					"fleet": 5
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 7,
+				"icon": "🌊"
+			},
+			{
+				"i": 6,
+				"a": 3,
+				"cell": 585,
+				"x": 622.39,
+				"y": 177.76,
+				"bx": 622.39,
+				"by": 177.76,
+				"u": {
+					"fleet": 3
+				},
+				"n": 1,
+				"name": "2nd Fleet",
+				"state": 7,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 8,
+		"color": "#e9a288",
+		"name": "Grire",
+		"expansionism": 4.1,
+		"capital": 8,
+		"type": "Generic",
+		"center": 3700,
+		"culture": 8,
+		"coa": {
+			"t1": "barry-vert-or-smaller",
+			"ordinaries": [
+				{
+					"ordinary": "bar",
+					"t": "argent",
+					"line": "straight"
+				}
+			],
+			"charges": [
+				{
+					"charge": "butterfly",
+					"t": "azure",
+					"p": "def",
+					"t2": "azure",
+					"t3": "azure",
+					"size": 0.3
+				}
+			],
+			"shield": "roman"
+		},
+		"urban": 214.167,
+		"rural": 1424.2719050645828,
+		"burgs": 22,
+		"area": 11599,
+		"cells": 158,
+		"neighbors": [3, 1],
+		"campaigns": [
+			{
+				"name": "Kalalan Intervention",
+				"start": 1359,
+				"end": 1364
+			},
+			{
+				"name": "Alan Rebellion",
+				"start": 1539,
+				"end": 1544
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Vassal",
+			"Unknown",
+			"Suspicion",
+			"Suspicion",
+			"Neutral",
+			"Ally",
+			"Neutral",
+			"x",
+			"Neutral",
+			"Ally",
+			"Ally",
+			"Unknown",
+			"Suspicion",
+			"Ally",
+			"Rival",
+			"Rival",
+			"Rival",
+			"Rival",
+			"Ally"
+		],
+		"form": "Monarchy",
+		"formName": "Protectorate",
+		"fullName": "Protectorate of Grire",
+		"provinces": [48, 49, 50, 51, 52, 53, 54],
+		"pole": [613.12109375, 438.62109375],
+		"alert": 0.32,
+		"military": [
+			{
+				"i": 0,
+				"a": 1663,
+				"cell": 3549,
+				"x": 519.59,
+				"y": 436.29,
+				"bx": 519.59,
+				"by": 436.29,
+				"u": {
+					"archers": 580,
+					"cavalry": 283,
+					"artillery": 12,
+					"infantry": 788
+				},
+				"n": 0,
+				"name": "1st (Shagoonwell) Regiment",
+				"state": 8,
+				"icon": "⚔️"
+			},
+			{
+				"i": 1,
+				"a": 187,
+				"cell": 4031,
+				"x": 599.1,
+				"y": 479.8,
+				"bx": 599.1,
+				"by": 479.8,
+				"u": {
+					"archers": 101,
+					"infantry": 74,
+					"cavalry": 9,
+					"artillery": 3
+				},
+				"n": 0,
+				"name": "2nd (Irepeak) Regiment",
+				"state": 8,
+				"icon": "🏹"
+			},
+			{
+				"i": 2,
+				"a": 1,
+				"cell": 3697,
+				"x": 567.3,
+				"y": 458.57,
+				"bx": 567.3,
+				"by": 458.57,
+				"u": {
+					"fleet": 1
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 8,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 9,
+		"color": "#98c5c8",
+		"name": "Sylsanilfa",
+		"expansionism": 5.1,
+		"capital": 9,
+		"type": "Generic",
+		"center": 2117,
+		"culture": 9,
+		"coa": {
+			"t1": "vert",
+			"charges": [
+				{
+					"charge": "sickle",
+					"t": "or",
+					"p": "abcpqh",
+					"t2": "argent",
+					"size": 0.5
+				}
+			],
+			"shield": "noldor"
+		},
+		"urban": 244.30100000000002,
+		"rural": 1699.3006279468536,
+		"burgs": 24,
+		"area": 14950,
+		"cells": 143,
+		"neighbors": [5, 12, 13, 2],
+		"campaigns": [
+			{
+				"name": "Imysaluman Expedition",
+				"start": 1510,
+				"end": 1517
+			},
+			{
+				"name": "Laugheian Crusade",
+				"start": 1647,
+				"end": 1653
+			},
+			{
+				"name": "Wlanalas Campaign",
+				"start": 1704,
+				"end": 1709
+			},
+			{
+				"name": "Ytenasemar Rebellion",
+				"start": 1704,
+				"end": 1705
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Neutral",
+			"Rival",
+			"Ally",
+			"Ally",
+			"Suspicion",
+			"Neutral",
+			"Enemy",
+			"Neutral",
+			"x",
+			"Friendly",
+			"Neutral",
+			"Rival",
+			"Rival",
+			"Neutral",
+			"Unknown",
+			"Suspicion",
+			"Unknown",
+			"Unknown",
+			"Neutral"
+		],
+		"form": "Monarchy",
+		"formName": "Kingdom",
+		"fullName": "Kingdom of Sylsanilfa",
+		"provinces": [55, 56, 57, 58, 59, 60, 61],
+		"pole": [1084.56640625, 301.58984375],
+		"alert": 2.68,
+		"military": [
+			{
+				"i": 0,
+				"a": 5675,
+				"cell": 2007,
+				"x": 1064.85,
+				"y": 305.97,
+				"bx": 1064.85,
+				"by": 305.97,
+				"u": {
+					"infantry": 2736,
+					"archers": 1512,
+					"cavalry": 1374,
+					"artillery": 53
+				},
+				"n": 0,
+				"name": "1st (Sahrion) Regiment",
+				"state": 9,
+				"icon": "⚔️"
+			},
+			{
+				"i": 1,
+				"a": 3692,
+				"cell": 1792,
+				"x": 1077.5,
+				"y": 282.43,
+				"bx": 1077.5,
+				"by": 282.43,
+				"u": {
+					"infantry": 1771,
+					"archers": 1210,
+					"cavalry": 688,
+					"artillery": 23
+				},
+				"n": 0,
+				"name": "2nd (Larithnor) Regiment",
+				"state": 9,
+				"icon": "⚔️"
+			},
+			{
+				"i": 2,
+				"a": 3138,
+				"cell": 1471,
+				"x": 1145.52,
+				"y": 255.15,
+				"bx": 1145.52,
+				"by": 255.15,
+				"u": {
+					"archers": 1444,
+					"cavalry": 322,
+					"infantry": 1357,
+					"artillery": 15
+				},
+				"n": 0,
+				"name": "3rd (Drethamel) Regiment",
+				"state": 9,
+				"icon": "🏹"
+			},
+			{
+				"i": 3,
+				"a": 3106,
+				"cell": 1680,
+				"x": 1050.95,
+				"y": 277.14,
+				"bx": 1050.95,
+				"by": 277.14,
+				"u": {
+					"infantry": 1384,
+					"cavalry": 911,
+					"artillery": 15,
+					"archers": 796
+				},
+				"n": 0,
+				"name": "4th (Larithnor) Regiment",
+				"state": 9,
+				"icon": "⚔️"
+			},
+			{
+				"i": 4,
+				"a": 1701,
+				"cell": 2236,
+				"x": 1133.02,
+				"y": 326.96,
+				"bx": 1133.02,
+				"by": 326.96,
+				"u": {
+					"infantry": 837,
+					"cavalry": 342,
+					"artillery": 27,
+					"archers": 495
+				},
+				"n": 0,
+				"name": "5th (Drethamel) Regiment",
+				"state": 9,
+				"icon": "⚔️"
+			},
+			{
+				"i": 5,
+				"a": 853,
+				"cell": 1462,
+				"x": 1077.48,
+				"y": 250.42,
+				"bx": 1077.48,
+				"by": 250.42,
+				"u": {
+					"archers": 455,
+					"cavalry": 40,
+					"artillery": 25,
+					"infantry": 333
+				},
+				"n": 0,
+				"name": "6th (Velne) Regiment",
+				"state": 9,
+				"icon": "🏹"
+			},
+			{
+				"i": 6,
+				"a": 4,
+				"cell": 1465,
+				"x": 1103.62,
+				"y": 240.91,
+				"bx": 1103.62,
+				"by": 240.91,
+				"u": {
+					"fleet": 4
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 9,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 10,
+		"color": "#a5d87c",
+		"name": "Blacland",
+		"expansionism": 3.9,
+		"capital": 10,
+		"type": "Generic",
+		"center": 4251,
+		"culture": 6,
+		"coa": {
+			"t1": "or",
+			"charges": [
+				{
+					"charge": "drum",
+					"t": "vert",
+					"p": "abc",
+					"t2": "vert",
+					"t3": "vert",
+					"size": 0.5
+				}
+			],
+			"shield": "fantasy5"
+		},
+		"urban": 294.7489999999999,
+		"rural": 2553.754959732294,
+		"burgs": 39,
+		"area": 28763,
+		"cells": 321,
+		"neighbors": [3, 6, 13, 4],
+		"campaigns": [
+			{
+				"name": "Kalalan War",
+				"start": 1364,
+				"end": 1365
+			},
+			{
+				"name": "Knighilese Invasion",
+				"start": 1602,
+				"end": 1603
+			},
+			{
+				"name": "Ulgathelese Conflict",
+				"start": 1704,
+				"end": 1705
+			},
+			{
+				"name": "Imysaluman Rebellion",
+				"start": 1704,
+				"end": 1705
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Ally",
+			"Friendly",
+			"Rival",
+			"Rival",
+			"Unknown",
+			"Suspicion",
+			"Friendly",
+			"Ally",
+			"Friendly",
+			"x",
+			"Suspicion",
+			"Friendly",
+			"Suspicion",
+			"Ally",
+			"Neutral",
+			"Unknown",
+			"Neutral",
+			"Neutral",
+			"Suspicion"
+		],
+		"form": "Monarchy",
+		"formName": "Kingdom",
+		"fullName": "Kingdom of Blacland",
+		"provinces": [62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73],
+		"pole": [948.587890625, 508.400390625],
+		"alert": 0.69,
+		"military": [
+			{
+				"i": 0,
+				"a": 3067,
+				"cell": 3309,
+				"x": 912.03,
+				"y": 413.91,
+				"bx": 912.03,
+				"by": 413.91,
+				"u": {
+					"infantry": 1329,
+					"cavalry": 614,
+					"archers": 1102,
+					"artillery": 22
+				},
+				"n": 0,
+				"name": "1st (Grireguard) Regiment",
+				"state": 10,
+				"icon": "⚔️"
+			},
+			{
+				"i": 1,
+				"a": 2689,
+				"cell": 4133,
+				"x": 981.9,
+				"y": 493.92,
+				"bx": 981.9,
+				"by": 493.92,
+				"u": {
+					"infantry": 1185,
+					"archers": 1167,
+					"cavalry": 317,
+					"artillery": 20
+				},
+				"n": 0,
+				"name": "2nd (Dustchilia) Regiment",
+				"state": 10,
+				"icon": "⚔️"
+			},
+			{
+				"i": 2,
+				"a": 2473,
+				"cell": 3739,
+				"x": 985.98,
+				"y": 447.7,
+				"bx": 985.98,
+				"by": 447.7,
+				"u": {
+					"infantry": 1206,
+					"cavalry": 500,
+					"artillery": 12,
+					"archers": 755
+				},
+				"n": 0,
+				"name": "3rd (Lamevil) Regiment",
+				"state": 10,
+				"icon": "⚔️"
+			},
+			{
+				"i": 3,
+				"a": 902,
+				"cell": 4251,
+				"x": 890.99,
+				"y": 510.37,
+				"bx": 890.99,
+				"by": 510.37,
+				"u": {
+					"archers": 467,
+					"cavalry": 55,
+					"artillery": 12,
+					"infantry": 368
+				},
+				"n": 0,
+				"name": "4th (Gras) Regiment",
+				"state": 10,
+				"icon": "👑"
+			},
+			{
+				"i": 4,
+				"a": 6,
+				"cell": 4251,
+				"x": 881.82,
+				"y": 517.55,
+				"bx": 881.82,
+				"by": 517.55,
+				"u": {
+					"fleet": 6
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 10,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 11,
+		"color": "#cdda5b",
+		"name": "Gabar",
+		"expansionism": 1.5,
+		"capital": 11,
+		"type": "Generic",
+		"center": 833,
+		"culture": 4,
+		"coa": {
+			"t1": "argent",
+			"charges": [
+				{
+					"charge": "cowStatant",
+					"t": "gules",
+					"p": "e",
+					"t2": "gules",
+					"t3": "gules",
+					"size": 1.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"urban": 40.208000000000006,
+		"rural": 153.38903665542603,
+		"burgs": 5,
+		"area": 1527,
+		"cells": 16,
+		"neighbors": [6, 7],
+		"campaigns": [
+			{
+				"name": "Ulgathel Conflict",
+				"start": 1487,
+				"end": 1497
+			},
+			{
+				"name": "Nulbunese Conflict",
+				"start": 1526,
+				"end": 1527
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Ally",
+			"Ally",
+			"Suspicion",
+			"Suspicion",
+			"Neutral",
+			"Vassal",
+			"Suspicion",
+			"Ally",
+			"Neutral",
+			"Suspicion",
+			"x",
+			"Neutral",
+			"Suspicion",
+			"Ally",
+			"Ally",
+			"Neutral",
+			"Ally",
+			"Ally",
+			"Ally"
+		],
+		"form": "Monarchy",
+		"formName": "Duchy",
+		"fullName": "Duchy of Gabar",
+		"provinces": [74, 75],
+		"pole": [882.953125, 202.359375],
+		"alert": 0.55,
+		"military": [
+			{
+				"i": 0,
+				"a": 519,
+				"cell": 931,
+				"x": 893.74,
+				"y": 203.58,
+				"bx": 893.74,
+				"by": 203.58,
+				"u": {
+					"infantry": 243,
+					"cavalry": 83,
+					"artillery": 8,
+					"archers": 185
+				},
+				"n": 0,
+				"name": "1st (Gun) Regiment",
+				"state": 11,
+				"icon": "⚔️"
+			},
+			{
+				"i": 1,
+				"a": 1,
+				"cell": 833,
+				"x": 887.38,
+				"y": 179.92,
+				"bx": 887.38,
+				"by": 179.92,
+				"u": {
+					"fleet": 1
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 11,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 12,
+		"color": "#61d6c1",
+		"name": "Gabuled",
+		"expansionism": 4.7,
+		"capital": 12,
+		"type": "Generic",
+		"center": 1345,
+		"culture": 4,
+		"coa": {
+			"t1": "or",
+			"ordinaries": [
+				{
+					"ordinary": "terrace",
+					"t": "azure",
+					"line": "archedReversed"
+				}
+			],
+			"charges": [
+				{
+					"charge": "estoile",
+					"t": "azure",
+					"p": "bdf",
+					"size": 0.5
+				}
+			],
+			"shield": "erebor"
+		},
+		"urban": 61.291999999999994,
+		"rural": 945.7145005464554,
+		"burgs": 14,
+		"area": 10825,
+		"cells": 103,
+		"neighbors": [19, 0, 6, 9, 13],
+		"campaigns": [
+			{
+				"name": "Akzinb Conquest",
+				"start": 1546,
+				"end": 1547
+			},
+			{
+				"name": "Ulgathelese Invasion",
+				"start": 1620,
+				"end": 1633
+			},
+			{
+				"name": "Imysaluman Invasion",
+				"start": 1694,
+				"end": 1704
+			},
+			{
+				"name": "Khar Conflict",
+				"start": 1704,
+				"end": 1705
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Unknown",
+			"Friendly",
+			"Friendly",
+			"Friendly",
+			"Friendly",
+			"Neutral",
+			"Friendly",
+			"Unknown",
+			"Rival",
+			"Friendly",
+			"Neutral",
+			"x",
+			"Rival",
+			"Unknown",
+			"Neutral",
+			"Neutral",
+			"Neutral",
+			"Neutral",
+			"Neutral"
+		],
+		"form": "Monarchy",
+		"formName": "Principality",
+		"fullName": "Principality of Gabuled",
+		"provinces": [76, 77, 78, 79, 80],
+		"pole": [975.3125, 261.6875],
+		"alert": 1.95,
+		"military": [
+			{
+				"i": 0,
+				"a": 3390,
+				"cell": 1134,
+				"x": 1037.86,
+				"y": 223.51,
+				"bx": 1037.86,
+				"by": 223.51,
+				"u": {
+					"archers": 1198,
+					"cavalry": 641,
+					"infantry": 1533,
+					"artillery": 18
+				},
+				"n": 0,
+				"name": "1st (Nulbakil) Regiment",
+				"state": 12,
+				"icon": "⚔️"
+			},
+			{
+				"i": 1,
+				"a": 2742,
+				"cell": 1232,
+				"x": 986.98,
+				"y": 229.3,
+				"bx": 986.98,
+				"by": 229.3,
+				"u": {
+					"infantry": 1342,
+					"archers": 769,
+					"cavalry": 626,
+					"artillery": 5
+				},
+				"n": 0,
+				"name": "2nd (Bibunulbun) Regiment",
+				"state": 12,
+				"icon": "⚔️"
+			},
+			{
+				"i": 2,
+				"a": 1824,
+				"cell": 1450,
+				"x": 959.41,
+				"y": 253.52,
+				"bx": 959.41,
+				"by": 253.52,
+				"u": {
+					"infantry": 690,
+					"archers": 405,
+					"cavalry": 724,
+					"artillery": 5
+				},
+				"n": 0,
+				"name": "3rd (Bibunulbun) Regiment",
+				"state": 12,
+				"icon": "🐴"
+			},
+			{
+				"i": 3,
+				"a": 2,
+				"cell": 1345,
+				"x": 1051.7,
+				"y": 232.5,
+				"bx": 1051.7,
+				"by": 232.5,
+				"u": {
+					"fleet": 2
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 12,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 13,
+		"color": "#fd89d2",
+		"name": "Imysaluma",
+		"expansionism": 5.4,
+		"capital": 13,
+		"type": "Generic",
+		"center": 3182,
+		"culture": 9,
+		"coa": {
+			"t1": "honeycombed-sable-argent",
+			"division": {
+				"division": "perCross",
+				"t": "barry-azure-or-smaller",
+				"line": "straight"
+			},
+			"ordinaries": [
+				{
+					"ordinary": "fess",
+					"t": "gules",
+					"line": "straight"
+				}
+			],
+			"charges": [
+				{
+					"charge": "palmTree",
+					"t": "argent",
+					"p": "e",
+					"t2": "argent",
+					"t3": "vert",
+					"size": 0.7
+				}
+			],
+			"shield": "noldor"
+		},
+		"urban": 302.26700000000005,
+		"rural": 2651.4098043441772,
+		"burgs": 39,
+		"area": 27525,
+		"cells": 279,
+		"neighbors": [6, 12, 9, 2, 10],
+		"campaigns": [
+			{
+				"name": "Sylsanilfan War",
+				"start": 1443,
+				"end": 1450
+			},
+			{
+				"name": "Blacish Conquest",
+				"start": 1467,
+				"end": 1484
+			},
+			{
+				"name": "Laugheian Campaign",
+				"start": 1631,
+				"end": 1641
+			},
+			{
+				"name": "Ulgathelese War",
+				"start": 1662,
+				"end": 1664
+			},
+			{
+				"name": "Gabuled Crusade",
+				"start": 1678,
+				"end": 1679
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Suspicion",
+			"Rival",
+			"Friendly",
+			"Friendly",
+			"Ally",
+			"Suspicion",
+			"Friendly",
+			"Suspicion",
+			"Rival",
+			"Suspicion",
+			"Suspicion",
+			"Rival",
+			"x",
+			"Suspicion",
+			"Neutral",
+			"Unknown",
+			"Neutral",
+			"Neutral",
+			"Suspicion"
+		],
+		"form": "Monarchy",
+		"formName": "Kingdom",
+		"fullName": "Kingdom of Imysaluma",
+		"provinces": [81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92],
+		"pole": [1078.625, 427.375],
+		"alert": 1.29,
+		"military": [
+			{
+				"i": 0,
+				"a": 4456,
+				"cell": 3182,
+				"x": 1081.11,
+				"y": 405.34,
+				"bx": 1081.11,
+				"by": 405.34,
+				"u": {
+					"archers": 1291,
+					"cavalry": 1104,
+					"artillery": 33,
+					"infantry": 2028
+				},
+				"n": 0,
+				"name": "1st (Farithlond) Regiment",
+				"state": 13,
+				"icon": "👑"
+			},
+			{
+				"i": 1,
+				"a": 3014,
+				"cell": 2682,
+				"x": 1079.03,
+				"y": 367.7,
+				"bx": 1079.03,
+				"by": 367.7,
+				"u": {
+					"archers": 781,
+					"cavalry": 708,
+					"artillery": 17,
+					"infantry": 1508
+				},
+				"n": 0,
+				"name": "2nd (Drethala) Regiment",
+				"state": 13,
+				"icon": "⚔️"
+			},
+			{
+				"i": 2,
+				"a": 2250,
+				"cell": 3180,
+				"x": 1055.73,
+				"y": 407.77,
+				"bx": 1055.73,
+				"by": 407.77,
+				"u": {
+					"infantry": 858,
+					"cavalry": 853,
+					"archers": 522,
+					"artillery": 17
+				},
+				"n": 0,
+				"name": "3rd (Farithlond) Regiment",
+				"state": 13,
+				"icon": "⚔️"
+			},
+			{
+				"i": 3,
+				"a": 1824,
+				"cell": 3186,
+				"x": 1117.81,
+				"y": 412.01,
+				"bx": 1117.81,
+				"by": 412.01,
+				"u": {
+					"archers": 770,
+					"cavalry": 241,
+					"infantry": 802,
+					"artillery": 11
+				},
+				"n": 0,
+				"name": "4th (Eltenahet) Regiment",
+				"state": 13,
+				"icon": "⚔️"
+			},
+			{
+				"i": 4,
+				"a": 2,
+				"cell": 4152,
+				"x": 1128.86,
+				"y": 497.79,
+				"bx": 1128.86,
+				"by": 497.79,
+				"u": {
+					"fleet": 2
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 13,
+				"icon": "🌊"
+			},
+			{
+				"i": 5,
+				"a": 1,
+				"cell": 3332,
+				"x": 1153.9,
+				"y": 422.9,
+				"bx": 1153.9,
+				"by": 422.9,
+				"u": {
+					"fleet": 1
+				},
+				"n": 1,
+				"name": "2nd Fleet",
+				"state": 13,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 14,
+		"color": "#e7a587",
+		"name": "Kleable",
+		"expansionism": 3.9,
+		"capital": 14,
+		"type": "Nomadic",
+		"center": 199,
+		"culture": 2,
+		"coa": {
+			"t1": "gules",
+			"charges": [
+				{
+					"charge": "rustre",
+					"t": "argent",
+					"p": "e",
+					"size": 1.5
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"urban": 206.197,
+		"rural": 1211.5320715904236,
+		"burgs": 25,
+		"area": 12297,
+		"cells": 137,
+		"neighbors": [17, 15, 1],
+		"campaigns": [
+			{
+				"name": "Pyrish Campaign",
+				"start": 1453,
+				"end": 1454
+			},
+			{
+				"name": "Gneabish Rebellion",
+				"start": 1515,
+				"end": 1516
+			},
+			{
+				"name": "Alan Conflict",
+				"start": 1587,
+				"end": 1588
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Vassal",
+			"Unknown",
+			"Suspicion",
+			"Suspicion",
+			"Neutral",
+			"Ally",
+			"Neutral",
+			"Ally",
+			"Neutral",
+			"Ally",
+			"Ally",
+			"Unknown",
+			"Suspicion",
+			"x",
+			"Rival",
+			"Rival",
+			"Rival",
+			"Rival",
+			"Ally"
+		],
+		"form": "Union",
+		"formName": "League",
+		"fullName": "Kleablean League",
+		"provinces": [93, 94, 95, 96, 97, 98, 99, 100],
+		"pole": [403.71875, 160.09375],
+		"alert": 0.95,
+		"military": [
+			{
+				"i": 0,
+				"a": 3280,
+				"cell": 368,
+				"x": 357.89,
+				"y": 150.44,
+				"bx": 357.89,
+				"by": 150.44,
+				"u": {
+					"cavalry": 1473,
+					"archers": 1071,
+					"infantry": 714,
+					"artillery": 22
+				},
+				"n": 0,
+				"name": "1st (Gobs) Regiment",
+				"state": 14,
+				"icon": "🐴"
+			},
+			{
+				"i": 1,
+				"a": 2574,
+				"cell": 561,
+				"x": 421.02,
+				"y": 168.53,
+				"bx": 421.02,
+				"by": 168.53,
+				"u": {
+					"cavalry": 869,
+					"archers": 1042,
+					"infantry": 639,
+					"artillery": 24
+				},
+				"n": 0,
+				"name": "2nd (Paas) Regiment",
+				"state": 14,
+				"icon": "🏹"
+			},
+			{
+				"i": 2,
+				"a": 1,
+				"cell": 199,
+				"x": 421.4,
+				"y": 116.7,
+				"bx": 421.4,
+				"by": 116.7,
+				"u": {
+					"fleet": 1
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 14,
+				"icon": "🌊"
+			},
+			{
+				"i": 3,
+				"a": 1,
+				"cell": 382,
+				"x": 508.91,
+				"y": 146.88,
+				"bx": 508.91,
+				"by": 146.88,
+				"u": {
+					"fleet": 1
+				},
+				"n": 1,
+				"name": "2nd Fleet",
+				"state": 14,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 15,
+		"color": "#98c5c8",
+		"name": "Gneabs",
+		"expansionism": 5.7,
+		"capital": 15,
+		"type": "Nomadic",
+		"center": 1487,
+		"culture": 2,
+		"coa": {
+			"t1": "masoned-argent-sable-smaller",
+			"division": {
+				"division": "perFess",
+				"t": "purpure",
+				"line": "straight"
+			},
+			"ordinaries": [
+				{
+					"ordinary": "crossParted",
+					"t": "vert",
+					"line": "straight"
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"urban": 315.527,
+		"rural": 3466.401473701,
+		"burgs": 50,
+		"area": 53904,
+		"cells": 561,
+		"neighbors": [7, 14, 1, 17, 16, 18],
+		"campaigns": [
+			{
+				"name": "Shathiz Conflict",
+				"start": 1503,
+				"end": 1504
+			},
+			{
+				"name": "Black War",
+				"start": 1581,
+				"end": 1592
+			},
+			{
+				"name": "Bioklig Conflict",
+				"start": 1622,
+				"end": 1624
+			},
+			{
+				"name": "Emouthian Campaign",
+				"start": 1701,
+				"end": 1708
+			},
+			{
+				"name": "Kleablean War",
+				"start": 1704,
+				"end": 1707
+			},
+			{
+				"name": "Pyrish Campaign",
+				"start": 1704,
+				"end": 1709
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Rival",
+			"Neutral",
+			"Friendly",
+			"Friendly",
+			"Neutral",
+			"Ally",
+			"Suspicion",
+			"Rival",
+			"Unknown",
+			"Neutral",
+			"Ally",
+			"Neutral",
+			"Neutral",
+			"Rival",
+			"x",
+			"Suspicion",
+			"Suzerain",
+			"Suzerain",
+			"Ally"
+		],
+		"form": "Monarchy",
+		"formName": "Empire",
+		"fullName": "Gneabish Empire",
+		"provinces": [
+			101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113,
+			114, 115
+		],
+		"pole": [294.685546875, 270.373046875],
+		"alert": 0.86,
+		"military": [
+			{
+				"i": 0,
+				"a": 5903,
+				"cell": 1817,
+				"x": 207.17,
+				"y": 298.72,
+				"bx": 207.17,
+				"by": 298.72,
+				"u": {
+					"cavalry": 4123,
+					"artillery": 11,
+					"infantry": 871,
+					"archers": 898
+				},
+				"n": 0,
+				"name": "1st (Jaskurt) Regiment",
+				"state": 15,
+				"icon": "🐴"
+			},
+			{
+				"i": 1,
+				"a": 3349,
+				"cell": 1393,
+				"x": 389.28,
+				"y": 255.19,
+				"bx": 389.28,
+				"by": 255.19,
+				"u": {
+					"cavalry": 2619,
+					"infantry": 291,
+					"archers": 432,
+					"artillery": 7
+				},
+				"n": 0,
+				"name": "2nd (Xurx) Regiment",
+				"state": 15,
+				"icon": "🐴"
+			},
+			{
+				"i": 2,
+				"a": 3330,
+				"cell": 3081,
+				"x": 218.1,
+				"y": 408.81,
+				"bx": 218.1,
+				"by": 408.81,
+				"u": {
+					"cavalry": 1737,
+					"infantry": 598,
+					"archers": 979,
+					"artillery": 16
+				},
+				"n": 0,
+				"name": "3rd (Kluir) Regiment",
+				"state": 15,
+				"icon": "🐴"
+			},
+			{
+				"i": 3,
+				"a": 2925,
+				"cell": 2378,
+				"x": 307.35,
+				"y": 350.43,
+				"bx": 307.35,
+				"by": 350.43,
+				"u": {
+					"cavalry": 2637,
+					"infantry": 95,
+					"archers": 192,
+					"artillery": 1
+				},
+				"n": 0,
+				"name": "4th (Brid) Regiment",
+				"state": 15,
+				"icon": "🐴"
+			},
+			{
+				"i": 4,
+				"a": 2413,
+				"cell": 966,
+				"x": 328.53,
+				"y": 211.65,
+				"bx": 328.53,
+				"by": 211.65,
+				"u": {
+					"cavalry": 1867,
+					"infantry": 252,
+					"archers": 290,
+					"artillery": 4
+				},
+				"n": 0,
+				"name": "5th (Brid) Regiment",
+				"state": 15,
+				"icon": "🐴"
+			},
+			{
+				"i": 5,
+				"a": 792,
+				"cell": 2715,
+				"x": 274.7,
+				"y": 381.16,
+				"bx": 274.7,
+				"by": 381.16,
+				"u": {
+					"cavalry": 498,
+					"infantry": 109,
+					"archers": 181,
+					"artillery": 4
+				},
+				"n": 0,
+				"name": "6th (Ladowfalls) Regiment",
+				"state": 15,
+				"icon": "🐴"
+			},
+			{
+				"i": 6,
+				"a": 1,
+				"cell": 861,
+				"x": 263.44,
+				"y": 193.82,
+				"bx": 263.44,
+				"by": 193.82,
+				"u": {
+					"fleet": 1
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 15,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 16,
+		"color": "#f488d6",
+		"name": "Black",
+		"expansionism": 6.1,
+		"capital": 16,
+		"type": "Generic",
+		"center": 2972,
+		"culture": 8,
+		"coa": {
+			"t1": "sable",
+			"charges": [
+				{
+					"charge": "lambPassantReguardant",
+					"t": "or",
+					"p": "e",
+					"t2": "or",
+					"size": 1.5
+				}
+			],
+			"shield": "roman"
+		},
+		"urban": 240.05200000000002,
+		"rural": 1658.6153717041016,
+		"burgs": 32,
+		"area": 19447,
+		"cells": 217,
+		"neighbors": [15, 1, 18],
+		"campaigns": [
+			{
+				"name": "Alan Campaign",
+				"start": 1333,
+				"end": 1346
+			},
+			{
+				"name": "Gneabs Campaign",
+				"start": 1578,
+				"end": 1579
+			},
+			{
+				"name": "Emouthian Campaign",
+				"start": 1633,
+				"end": 1639
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Rival",
+			"Neutral",
+			"Ally",
+			"Ally",
+			"Suspicion",
+			"Neutral",
+			"Enemy",
+			"Rival",
+			"Suspicion",
+			"Unknown",
+			"Neutral",
+			"Neutral",
+			"Unknown",
+			"Rival",
+			"Suspicion",
+			"x",
+			"Suspicion",
+			"Suspicion",
+			"Neutral"
+		],
+		"form": "Monarchy",
+		"formName": "Kingdom",
+		"fullName": "Kingdom of Black",
+		"provinces": [116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 136],
+		"pole": [397.20703125, 382.48046875],
+		"alert": 1.41,
+		"military": [
+			{
+				"i": 0,
+				"a": 7080,
+				"cell": 2972,
+				"x": 412.23,
+				"y": 401.26,
+				"bx": 412.23,
+				"by": 401.26,
+				"u": {
+					"archers": 2183,
+					"cavalry": 1840,
+					"infantry": 2979,
+					"artillery": 78
+				},
+				"n": 0,
+				"name": "1st (Heartia) Regiment",
+				"state": 16,
+				"icon": "👑"
+			},
+			{
+				"i": 1,
+				"a": 3974,
+				"cell": 4007,
+				"x": 341.8,
+				"y": 489,
+				"bx": 341.8,
+				"by": 489,
+				"u": {
+					"archers": 1905,
+					"cavalry": 354,
+					"artillery": 28,
+					"infantry": 1687
+				},
+				"n": 0,
+				"name": "2nd (Mospel) Regiment",
+				"state": 16,
+				"icon": "🏹"
+			},
+			{
+				"i": 2,
+				"a": 7,
+				"cell": 3679,
+				"x": 436.85,
+				"y": 460.89,
+				"bx": 436.85,
+				"by": 460.89,
+				"u": {
+					"fleet": 7
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 16,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 17,
+		"color": "#aece72",
+		"name": "Pyreaz",
+		"expansionism": 3.6,
+		"capital": 17,
+		"type": "Nomadic",
+		"center": 185,
+		"culture": 2,
+		"coa": {
+			"t1": "argent",
+			"ordinaries": [
+				{
+					"ordinary": "bendlet",
+					"t": "azure",
+					"line": "nebuly"
+				}
+			],
+			"charges": [
+				{
+					"charge": "bow",
+					"t": "argent",
+					"p": "joe",
+					"size": 0.3
+				}
+			],
+			"shield": "moriaOrc"
+		},
+		"urban": 84.59599999999999,
+		"rural": 602.9047520160675,
+		"burgs": 11,
+		"area": 7145,
+		"cells": 86,
+		"neighbors": [14, 15],
+		"campaigns": [
+			{
+				"name": "Kleablean Expedition",
+				"start": 1704,
+				"end": 1709
+			},
+			{
+				"name": "Gneabs War",
+				"start": 1704,
+				"end": 1709
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Rival",
+			"Neutral",
+			"Friendly",
+			"Friendly",
+			"Neutral",
+			"Ally",
+			"Suspicion",
+			"Rival",
+			"Unknown",
+			"Neutral",
+			"Ally",
+			"Neutral",
+			"Neutral",
+			"Rival",
+			"Vassal",
+			"Suspicion",
+			"x",
+			"Ally",
+			"Ally"
+		],
+		"form": "Monarchy",
+		"formName": "Grand Duchy",
+		"fullName": "Grand Duchy of Pyreaz",
+		"provinces": [126, 127, 128, 129],
+		"pole": [319.9921875, 148.8984375],
+		"alert": 0.76,
+		"military": [
+			{
+				"i": 0,
+				"a": 2594,
+				"cell": 185,
+				"x": 287.8,
+				"y": 133.4,
+				"bx": 287.8,
+				"by": 133.4,
+				"u": {
+					"archers": 757,
+					"cavalry": 1224,
+					"artillery": 18,
+					"infantry": 595
+				},
+				"n": 0,
+				"name": "1st (Croi) Regiment",
+				"state": 17,
+				"icon": "👑"
+			},
+			{
+				"i": 1,
+				"a": 2,
+				"cell": 185,
+				"x": 281.16,
+				"y": 126.74,
+				"bx": 281.16,
+				"by": 126.74,
+				"u": {
+					"fleet": 2
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 17,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 18,
+		"color": "#fff339",
+		"name": "Emouthia",
+		"expansionism": 1.5,
+		"capital": 18,
+		"type": "Generic",
+		"center": 2720,
+		"culture": 8,
+		"coa": {
+			"t1": "sable",
+			"division": {
+				"division": "perPale",
+				"t": "argent",
+				"line": "straight"
+			},
+			"charges": [
+				{
+					"charge": "salmon",
+					"t": "or",
+					"p": "p",
+					"t2": "or",
+					"size": 0.7
+				},
+				{
+					"charge": "hand",
+					"t": "gules",
+					"p": "q",
+					"size": 0.7
+				}
+			],
+			"shield": "roman"
+		},
+		"urban": 75.038,
+		"rural": 102.17401099205017,
+		"burgs": 2,
+		"area": 1229,
+		"cells": 14,
+		"neighbors": [15, 16],
+		"campaigns": [
+			{
+				"name": "Black War",
+				"start": 1426,
+				"end": 1436
+			},
+			{
+				"name": "Gneabish Rebellion",
+				"start": 1704,
+				"end": 1707
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Rival",
+			"Neutral",
+			"Friendly",
+			"Friendly",
+			"Neutral",
+			"Ally",
+			"Suspicion",
+			"Rival",
+			"Unknown",
+			"Neutral",
+			"Ally",
+			"Neutral",
+			"Neutral",
+			"Rival",
+			"Vassal",
+			"Suspicion",
+			"Ally",
+			"x",
+			"Ally"
+		],
+		"form": "Monarchy",
+		"formName": "Protectorate",
+		"fullName": "Protectorate of Emouthia",
+		"provinces": [130, 131],
+		"pole": [301.171875, 369.390625],
+		"alert": 0.96,
+		"military": [
+			{
+				"i": 0,
+				"a": 760,
+				"cell": 2720,
+				"x": 308.75,
+				"y": 381.07,
+				"bx": 308.75,
+				"by": 381.07,
+				"u": {
+					"archers": 246,
+					"cavalry": 179,
+					"infantry": 310,
+					"artillery": 25
+				},
+				"n": 0,
+				"name": "1st (Emouth) Regiment",
+				"state": 18,
+				"icon": "👑"
+			},
+			{
+				"i": 1,
+				"a": 11,
+				"cell": 2720,
+				"x": 300.15,
+				"y": 389.23,
+				"bx": 300.15,
+				"by": 389.23,
+				"u": {
+					"fleet": 11
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 18,
+				"icon": "🌊"
+			}
+		]
+	},
+	{
+		"i": 19,
+		"color": "#ecb374",
+		"name": "Khar",
+		"expansionism": 6.4,
+		"capital": 19,
+		"type": "Generic",
+		"center": 532,
+		"culture": 4,
+		"coa": {
+			"t1": "sable",
+			"division": {
+				"division": "perCross",
+				"t": "argent",
+				"line": "straight"
+			},
+			"charges": [
+				{
+					"charge": "badgerStatant",
+					"t": "or",
+					"p": "jl",
+					"t2": "or",
+					"divided": "counter",
+					"size": 0.7
+				}
+			],
+			"shield": "erebor"
+		},
+		"urban": 77.135,
+		"rural": 510.9020572900772,
+		"burgs": 8,
+		"area": 5567,
+		"cells": 62,
+		"neighbors": [6, 0, 12],
+		"campaigns": [
+			{
+				"name": "Ulgathelese Crusade",
+				"start": 1704,
+				"end": 1709
+			},
+			{
+				"name": "Gabuled War",
+				"start": 1704,
+				"end": 1705
+			}
+		],
+		"diplomacy": [
+			"x",
+			"Ally",
+			"Ally",
+			"Suspicion",
+			"Suspicion",
+			"Neutral",
+			"Vassal",
+			"Suspicion",
+			"Ally",
+			"Neutral",
+			"Suspicion",
+			"Ally",
+			"Neutral",
+			"Suspicion",
+			"Ally",
+			"Ally",
+			"Neutral",
+			"Ally",
+			"Ally",
+			"x"
+		],
+		"form": "Monarchy",
+		"formName": "Protectorate",
+		"fullName": "Protectorate of Khar",
+		"provinces": [132, 133, 134, 137],
+		"pole": [1011.59375, 185.03125],
+		"alert": 0.6,
+		"military": [
+			{
+				"i": 0,
+				"a": 1702,
+				"cell": 532,
+				"x": 1008.36,
+				"y": 156.59,
+				"bx": 1008.36,
+				"by": 156.59,
+				"u": {
+					"archers": 875,
+					"cavalry": 110,
+					"artillery": 16,
+					"infantry": 701
+				},
+				"n": 0,
+				"name": "1st (Buzundab) Regiment",
+				"state": 19,
+				"icon": "👑"
+			},
+			{
+				"i": 1,
+				"a": 3,
+				"cell": 532,
+				"x": 1009.69,
+				"y": 150.27,
+				"bx": 1009.69,
+				"by": 150.27,
+				"u": {
+					"fleet": 3
+				},
+				"n": 1,
+				"name": "1st Fleet",
+				"state": 19,
+				"icon": "🌊"
+			}
+		]
+	}
+]
